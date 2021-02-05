@@ -1,0 +1,87 @@
+/* ----- Google Fonts import ----- */
+/* ----- Lato, weights 300, 400, 500, 600, 700, 800 ----- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400,500,600,700,800&display=swap');
+
+
+/* ----- Font ----- */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* ----- Navigation bar ----- */
+
+.nav-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .navbar-brand {
+     max-width: 20%;
+     margin-left: 50px;
+}
+
+ .navbar-brand img {
+     width: 100%; 
+}
+
+ .navbar-nav li a {
+     float: right;
+     font-weight: 600;
+}
+
+ .navbar-nav li a:hover {
+     text-decoration: underline;
+}
+
+/* ----- Media Queries ----- */ /*TO-DO, confirm screen sizes, for example 992 */
+/* --- Extra Large Screen --- */
+ @media screen and (max-width: 1201px) {
+
+ }   
+
+/* --- Large Screen --- */
+ @media screen and (max-width: 1024px) {
+    .navbar-brand {
+        max-width: 30%;
+        margin-left: 0px;
+    }
+ }
+
+/* --- Medium Screen --- */
+@media screen and (max-width: 768px) {
+
+    /* ----- Navigation bar ----- */
+    .navbar-brand {
+        max-width: 40%;
+        margin-left: 0px;
+    }
+}
+
+/* --- Small Screen --- */
+ @media screen and (max-width: 576px) {
+
+    /* ----- Navigation bar ----- */
+    .nav-bar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-brand {
+        max-width: 60%;
+        margin-left: 0px;
+    }
+}
+
+/* X-SMALL SCREEN */
+ @media screen and (max-width: 481px) {
+
+    /* ----- Navigation bar ----- */
+    .nav-bar {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .navbar-brand {
+        max-width: 60%;
+        margin-left: 0px;
+    }
+}   
