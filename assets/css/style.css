@@ -9,20 +9,51 @@
 }
 
 /* ----- Color palette ----- */
-/* from here: https://colorhunt.co/palette/22272 
-Colour 1: #f9f7f7 white ish colour
-Colour 2: #dbe2ef Grey ish colour
-Colour 3: #3f72af Blue
-Colour 4: #112d4e Dark blue
+/* from here:https://colorhunt.co/palette/220248 or https://colorhunt.co/palette/22272 
+Colour 1: #e8e8e8 White/Grey   e3fdfd
+Colour 2: #f05454 Red    cbf1f5
+Colour 3: #30475e Blue/Grey  nicer blue 3f72af   
+Colour 4: #222831 Black 
 */
 
-/* --- Footer colors --- */
-.info-copyright-text p,h5,h6, i {
+/* ----- Four images and text----- */
+.btn {
+    background: #3f72af;
+    color: #e8e8e8;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background: #f05454;
+    color: #e8e8e8;
+}
+
+
+.single-image-and-text {
+  box-shadow: 15px 15px #e8e8e8;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.image-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #222831;
+    text-align: center;
+    border-radius: 0 0 4px 4px;
+}
+
+.image-text h4,p {
     color: #f9f7f7;
 }
 
+/* --- Footer colors --- */
+.info-copyright-text p,h5,h6, i {
+    color: #e8e8e8;
+}
+
 .contact-form button{
-    color: #f9f7f7;
+    color: #e8e8e8;
 }
 
 .social-icon {
@@ -33,13 +64,18 @@ Colour 4: #112d4e Dark blue
     font-size: 15px;
     line-height: 7px;
     text-align: center;
-    color: #f9f7f7;
-    background: #3f72af
+    color: #e8e8e8;
+    background: #3f72af;
 }
 
 .social-icon:hover{
-    background: #112d4e;
+    background: #f05454;
 }
+
+.ruler {
+    background: #e8e8e8;
+}
+
 
 /* ----- Navigation bar ----- */
 
@@ -66,20 +102,62 @@ Colour 4: #112d4e Dark blue
      text-decoration: underline;
 }
 
-/* ----- Hero image ----- */
+/* ----- Hero image and text ----- */
 .hero-image {
     height: 700px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-image.jpg");
 }
 
+/* ----- Four images ----- */
+.four-images-and-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.dinner-image {
+    height: 200px;
+    background-image: url("/assets/images/dinner.jpg");
+    border-radius: 4px 4px 0 0;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.kitchen-image {
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+    background-image: url("/assets/images/kitchen.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.menu-image {
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+    background-image: url("/assets/images/menu.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.table-image {
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+    background-image: url("/assets/images/table_with_glasses.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.full-image {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
 /* ----- Footer ----- */
 .site-footer {
-    /*margin-top: 30px; */
-    /*border-top: 15px solid #000000; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/footer.jpg");
-    /*background-color: #3f72af; #112d4e 
-    background-blend-mode: multiply; */
 }
 
 .info-copyright-text {
@@ -87,10 +165,15 @@ Colour 4: #112d4e Dark blue
     padding-bottom: 30px;
 }
 
+.social-icons{
+    text-align: right;
+}
+
 /* --- Google Map --- */
 #map {
-    height: 250px;
+    height: 200px;
     width: 100%;
+    border-radius: 4px;
   }
 
 /* ----- Media Queries ----- */
