@@ -18,14 +18,14 @@ Colour 4: #222831 Black
 
 /* ----- Four images and text----- */
 .btn {
-    background: #3f72af;
-    color: #e8e8e8;
+    background: #af8346;
+    color: #ffffff;
     border-radius: 4px;
 }
 
 .btn:hover{
-    background: #f05454;
-    color: #e8e8e8;
+    background: #af8346;
+    color: #ffffff;
 }
 
 
@@ -38,7 +38,7 @@ Colour 4: #222831 Black
 .image-text {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #222831;
+    background-color: #0f4c75;
     text-align: center;
     border-radius: 0 0 4px 4px;
 }
@@ -116,7 +116,7 @@ Colour 4: #222831 Black
 }
 
 .dinner-image {
-    height: 200px;
+    height: 300px;
     background-image: url("/assets/images/dinner.jpg");
     border-radius: 4px 4px 0 0;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ Colour 4: #222831 Black
 }
 
 .kitchen-image {
-    height: 200px;
+    height: 300px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/kitchen.jpg");
     background-repeat: no-repeat;
@@ -132,7 +132,7 @@ Colour 4: #222831 Black
 }
 
 .menu-image {
-    height: 200px;
+    height: 300px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/menu.jpg");
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@ Colour 4: #222831 Black
 }
 
 .table-image {
-    height: 200px;
+    height: 300px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/table_with_glasses.jpg");
     background-repeat: no-repeat;
@@ -157,7 +157,9 @@ Colour 4: #222831 Black
 
 /* ----- Footer ----- */
 .site-footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/footer.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/footer-image.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .info-copyright-text {

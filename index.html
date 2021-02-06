@@ -59,15 +59,83 @@
                 </button>  
 
                 <!-- Menu Items -->       
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav"> 
-                            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="">Book a table</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
-                            <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
-                        </ul>
-                    </div>           
+                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav"> 
+                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                    </ul>
+                 </div>
+
+                <!-- Book a table modal --> 
+                <div class="d-none d-md-block">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Table Booking</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <h5>To book a table fill in the details below and click Submit</h5>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                        <input type="text" class="form-control" id="firstName" placeholder="Name">
+                                        </div>    
+                                    </div>    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                                        </div>
+                                    </div>    
+                                    <div class="form-row"> 
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="emailAddress" placeholder="Email Address">
+                                        </div>
+                                    </div>    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Number of guests</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                              <option>9</option>
+                                              <option>10</option>
+                                              <option>11</option>
+                                              <option>12</option>
+                                              <option>13</option>
+                                              <option>14</option>
+                                              <option>15</option>
+                                              <option>16</option>
+                                              <option>17</option>
+                                              <option>18</option>
+                                              <option>19</option>
+                                              <option>20</option>
+                                            </select>
+                                          </div>
+                                    </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn">Book a table</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>    
             </nav>
         </div>
     
@@ -82,7 +150,7 @@
     
     <section>
         <!-- Four images and text -->   
-        <div class="container four-images-and-text">
+        <div class="container-fluid four-images-and-text">
             <div class="row">
                 <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
                     <div class="single-image-and-text">
@@ -143,8 +211,8 @@
                 <div class="col-sm-12 col-md-4">
                     <h5>Contact Us</h5>
                     <p><i class="fa fa-map-marker"></i> 123 Fake Street, Dublin 4, Ireland</p><br>
-                    <p><i class="fa fa-map-marker"></i> +01-12345678</p><br>
-                    <p><i class="fa fa-map-marker"></i> hello@lilys.ie</p><br>
+                    <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
+                    <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h5>Opening Hours</h5>
