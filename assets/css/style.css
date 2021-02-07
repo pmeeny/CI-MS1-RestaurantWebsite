@@ -14,9 +14,19 @@ Primary Colour: 0f4c75
 Secondary: Gold: af8346
 Third Grey e8e8e8
 Fourth White ffffff
+Black: 
 */
 
-/* ----- Four images and text----- */
+/* --- Header --- */
+.navbar-light .navbar-nav .nav-link {
+    color: #212529;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #0f4c75;
+}
+
+/* --- Four images and text --- */
 .btn {
     background: #af8346;
     color: #ffffff;
@@ -76,6 +86,10 @@ Fourth White ffffff
     background: #e8e8e8;
 }
 
+.opening-hours h6 {
+    color: #ffffff;
+}
+
 /* --- Menu colors --- */
 .menu-and-carousel {
     margin-top: 20px;
@@ -124,7 +138,7 @@ Fourth White ffffff
     border-bottom: 1px solid #0f4c75;
 }
 
-.modal-body h5 {
+.modal-body h5,h6 {
     color: #212529;
 }
 
