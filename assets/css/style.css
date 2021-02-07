@@ -10,10 +10,10 @@
 
 /* ----- Color palette ----- */
 /* from here:https://colorhunt.co/palette/220248 or https://colorhunt.co/palette/22272 
-Colour 1: #e8e8e8 White/Grey   e3fdfd
-Colour 2: #f05454 Red    cbf1f5
-Colour 3: #30475e Blue/Grey  nicer blue 3f72af   
-Colour 4: #222831 Black 
+Primary Colour: 0f4c75
+Secondary: Gold: af8346
+Third Grey e8e8e8
+Fourth White ffffff
 */
 
 /* ----- Four images and text----- */
@@ -49,11 +49,11 @@ Colour 4: #222831 Black
 
 /* --- Footer colors --- */
 .info-copyright-text p,h5,h6, i {
-    color: #e8e8e8;
+    color: #ffffff;
 }
 
 .contact-form button{
-    color: #e8e8e8;
+    color: #ffffff;
 }
 
 .social-icon {
@@ -65,17 +65,31 @@ Colour 4: #222831 Black
     line-height: 7px;
     text-align: center;
     color: #e8e8e8;
-    background: #3f72af;
+    background: #af8346; 
 }
 
 .social-icon:hover{
-    background: #f05454;
+    background: #0f4c75;
 }
 
 .ruler {
     background: #e8e8e8;
 }
 
+/* --- Menu colors --- */
+.menu-and-carousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu h4 {
+    color: #0f4c75;
+}
+
+.menu {
+    background-color: #e8e8e8;
+    padding: 20px 20px 20px 20px;
+}
 
 /* ----- Navigation bar ----- */
 
@@ -100,6 +114,27 @@ Colour 4: #222831 Black
 
  .navbar-nav li a:hover {
      text-decoration: underline;
+}
+
+.modal-content {
+    background-color: #e8e8e8; 
+}
+
+.modal-header {
+    border-bottom: 1px solid #0f4c75;
+}
+
+.modal-body h5 {
+    color: #212529;
+}
+
+.modal-header h5 {
+    color: #0f4c75;
+}
+
+
+.modal-footer {
+    border-top: 1px solid #0f4c75;
 }
 
 /* ----- Hero image and text ----- */
@@ -170,6 +205,26 @@ Colour 4: #222831 Black
 .social-icons{
     text-align: right;
 }
+
+/* ----- Menu ----- */
+.menu-description {
+    max-width: 600px;
+}
+
+#food-image-carousel {
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.carousel-item {
+    max-height: 700px;
+}
+
+.carousel-item .img-fluid {
+    width:100%;
+    height:100%;
+}
+
 
 /* --- Google Map --- */
 #map {
