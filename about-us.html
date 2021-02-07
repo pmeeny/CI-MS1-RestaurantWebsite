@@ -5,22 +5,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Table Booking</title>
+    <title>About Us</title>
+
+    <!-- Need to add the correct versions of JQuery, Bootstrap and FontAwesone-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Google maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWncKIaJ0_spPiZHLkwqIAhhgHqs-X0X4&callback=initMap&libraries=&v=weekly" defer></script>
+
+    <!-- FontAwesone -->
+    <script src="https://kit.fontawesome.com/9e31b09f8c.js" crossorigin="anonymous"></script>
+
+    <!-- User style css --> 
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
 </head>
 
 <body>
     <header>
-    
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- Brand Logo -->
+                <a href="#" class="navbar-brand">
+                    <img src="assets/images/restaurant_logo.png" alt="Restaurant Logo">
+                </a> 
+
+                <!-- Menu Toggler -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
+
+                <!-- Menu Items -->       
+                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav"> 
+                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                    </ul>
+                 </div>
+
+                <!-- Book a table modal --> 
+                <div class="d-none d-md-block">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="tableBookingModal" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="tableBookingModal">Table Booking</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <h6>To book a table fill in the details below and click the Book a table button</h6>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                        <input type="text" class="form-control" id="firstName" placeholder="Name">
+                                        </div>    
+                                    </div>    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                                        </div>
+                                    </div>    
+                                    <div class="form-row"> 
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="emailAddress" placeholder="Email Address">
+                                        </div>
+                                    </div>    
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="exampleFormControlSelect1">Number of guests</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                              <option>1</option>
+                                              <option>2</option>
+                                              <option>3</option>
+                                              <option>4</option>
+                                              <option>5</option>
+                                              <option>6</option>
+                                              <option>7</option>
+                                              <option>8</option>
+                                              <option>9</option>
+                                              <option>10</option>
+                                              <option>11</option>
+                                              <option>12</option>
+                                              <option>13</option>
+                                              <option>14</option>
+                                              <option>15</option>
+                                              <option>16</option>
+                                              <option>17</option>
+                                              <option>18</option>
+                                              <option>19</option>
+                                              <option>20</option>
+                                            </select>
+                                          </div>
+                                    </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn">Book a table</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>    
+            </nav>
+        </div>
     
     </header>
-
-    <section>    
-    </section> 
-    
-    
-    <footer>
-
+        <div class="container about-us-and-team">
+            <div class="row about-us">
+                <div class="col-sm-12">
+                        <h3>About Us</h3>
+                        <p>The style of cuisine is modern Irish and the restaurant prides itself on using fresh produce in season; most of which is sourced locally. One of the main aims of Lily's is to give quality food and service at a reasonable price. We also offer an outdoor catering service where we deliver to your desired location.</p>
+                    </div>
+                    <div class="row the-team">
+                </div>
+            </div>
+            <div class="row meet-the-team">
+                <div class="col-sm-12">
+                    <h3>Meet the Team</h3>
+                </div>
+                <div class="row the-team">
+                    <div class="col-sm-12 col-lg-4 team-member">
+                        <img src="assets/images/kitchen.jpg" alt="">
+                        <h4>Chief Proprietor - John Kelly</h4>
+                        <p>John trained and worked at the Adare Manor for three years. John was voted the Munster Young Chef of the year in 1997. He then worked abroad for a number of years in a number of 5 star hotels in London and Paris. In March 2007 he returned to ireland and set up Lily's Restaurant</p>
+                    </div>
+                        <div class="col-sm-12 col-lg-4 team-member">
+                        <img src="assets/images/kitchen.jpg" alt="">
+                        <h4>Head Chef - Keith Murphy</h4>
+                        <p>Keith first started his career as a chef at The Gibson Hotel, Dublin at the age of 20, he then took up the role as Sous Chef of The Left Side Restaurant and shortly after, he was promoted to Head Chef. In 2008, Keith started in The Adare Manor where he spent 8 years as Sous Chef. Keith joined Lily's as Head Chef in October 2017.</p>
+                    </div>
+                        <div class="col-sm-12 col-lg-4 team-member">
+                        <img src="assets/images/kitchen.jpg" alt="">
+                        <h4>Restaurant Manager - Rebecca Lee</h4>
+                        <p>Rebecca first started in The Jury's Hotel, Galway at the age of 17, after two years he went to train and work at The Adare Manor. In May 2018, he returned to Jury's Hotel, Galway as Restaurant Supervisor, she was then promoted to Restaurant Manager in May 2019. Rebecca also takes a keen interest in all Marketing and Social Media aspects of the restaurant</p>
+                    </div>
+                </div>
+            </div>
+        </div>   
+ 
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container info-copyright-text">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <h5>Contact Us</h5>
+                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Dublin 4, Ireland</p><br>
+                    <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
+                    <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
+                </div>
+                <div class="col-sm-12 col-md-4 opening-hours">
+                    <h5>Opening Hours</h5>
+                    <h6>Monday 12:00 – 21:30</h6>
+                    <h6>Tuesday 12:00 – 21:30</h6>            
+                    <h6>Wednesday 12:00 – 21:30</h6>
+                    <h6>Thursday 12:00 – 21:30</h6>
+                    <h6>Friday 12:00 – 21:30</h6>  
+                    <h6>Saturday 12:00 – 21:30</h6>   
+                    <h6>Sunday 12:00 – 21:30</h6>                             
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <h5>Find us on google maps</h5>  
+                    <!--The div element for the map -->
+                    <div id="map"></div>
+                </div>
+            </div>
+            <div class="copyright">
+                <hr class="ruler">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <p>Copyright Test Website 2021</p>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                    </div>
+                    <div class="social-icons col-sm-12 col-md-4">
+                        <i class="fa fa-facebook social-icon"></i>
+                        <i class="fa fa-twitter social-icon"></i>
+                        <i class="fa fa-snapchat social-icon"></i>
+                        <i class="fa fa-instagram social-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
 

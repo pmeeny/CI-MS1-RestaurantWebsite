@@ -103,6 +103,7 @@ Black:
 .menu {
     background-color: #e8e8e8;
     padding: 20px 20px 20px 20px;
+    border-radius: 4px;
 }
 
 /* ----- Navigation bar ----- */
@@ -239,6 +240,52 @@ Black:
     height:100%;
 }
 
+/* ----- About Us ----- */
+.about-us-and-team {
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.about-us {
+    margin-bottom: 10px; 
+}
+
+.about-us h3 {
+    color: #0f4c75;
+}
+
+.the-team {
+    margin: 0 auto;
+}
+
+.the-team h4{
+    color: #0f4c75;   
+}
+
+.team-member img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.team-member p{
+    color: #212529;
+}
+
+.about-us-and-team p{
+    color: #212529;   
+}
+
+.meet-the-team h3{
+    color: #0f4c75;   
+}
 
 /* --- Google Map --- */
 #map {
