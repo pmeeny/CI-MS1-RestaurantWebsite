@@ -46,6 +46,10 @@ Black: #212529
     border-top: 1px solid #0f4c75;
 }
 
+#book-table-text {
+    color: #212529;
+}
+
 /* --- Four images and text Colors --- */
 .btn {
     background: #af8346;
@@ -84,7 +88,7 @@ single-image-and-text {
 }
 
 /* --- Footer Colors --- */
-#info-copyright-text p,h5,h6, i {
+#info-copyright-text p,h5,h6,i {
     color: #ffffff;
 }
 
@@ -121,6 +125,10 @@ single-image-and-text {
 #food-image-carousel {
     background-color: #e8e8e8;
 
+}
+
+#menu-and-carousel {
+    background-color: #e8e8e8; 
 }
 
 /* --- About Us Colors --- */
@@ -292,25 +300,25 @@ single-image-and-text {
 }
 
 /* ----- Menu ----- */
-#menu {
-    padding: 20px 20px 20px 20px;
-    border-radius: 4px 4px 0px 0px;
-}
-
 #menu-and-carousel {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px; 
+}
+*/
+.menu-description {
+    max-width: 45px;
 }
 
-.menu-description {
-    max-width: 600px;
+.menu-allergy {
+    min-width: 150px;
 }
 
 #food-image-carousel {
     padding-bottom: 30px;
     position: relative;
     border-radius: 0px 0px 4px 4px;
-    padding: 20px 20px 20px 20px;
 }
 
 .carousel-item {
@@ -401,6 +409,15 @@ single-image-and-text {
         max-width: 40%;
         margin-left: 0px;
     }
+
+    /* ----- Youtube video ----- */
+    #youtube-video {
+         margin-top:20px;
+    }
+
+    #awards iframe {
+        height: 250px;
+    }
 }
 
 /* --- Small Screen --- */
@@ -416,6 +433,15 @@ single-image-and-text {
         max-width: 60%;
         margin-left: 0px;
     }
+
+    /* ----- Youtube video ----- */
+    #youtube-video {
+        margin-top:20px;
+    }
+
+    #awards iframe {
+        height: 250px;
+    }
 }
 
 /* X-SMALL SCREEN */
@@ -429,5 +455,14 @@ single-image-and-text {
     .navbar-brand {
         max-width: 60%;
         margin-left: 0px;
+    }
+
+    /* ----- Youtube video ----- */
+    #youtube-video {
+        margin-top: 20px;
+    }
+
+    #awards iframe {
+        height: 250px;
     }
 }   

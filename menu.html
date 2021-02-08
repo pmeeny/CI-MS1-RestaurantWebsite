@@ -83,7 +83,7 @@
                             </div>
                             <div class="modal-body">
                                 <form>
-                                    <h6>To book a table fill in the details below and click the Book a table button</h6>
+                                    <h6 id="book-table-text">To book a table fill in the details below and click the Book a table button</h6>
                                     <div class="form-group row">
                                         <label for="name" class="col-5 col-form-label">Name</label>
                                         <div class="col-7">
@@ -151,38 +151,37 @@
         </div>
     
     </header>
-
-    <div id="menu-and-carousel">
-        <section> 
-            <div class="container" id="menu">  <!-- reference: https://thesquaretable.ie/dinner-menu/-->
+<div class="row container" id="menu-and-carousel">
+    <div class="col-sm-12 col-md-7">
+            <div id="menu">  <!-- reference: https://thesquaretable.ie/dinner-menu/-->
                 <h4>Starters</h4>
                     <table class="table">
                     <thead>
                         <tr>
                         <th scope="col">Description</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Food Allergan Advice</th>
+                        <th scope="col">Allergan Advice</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                         <td class="menu-description">Chefs Soup of the Day,Served with freshly made brown bread</td>
                         <td>€5.95</td>
-                        <td></td>
+                        <td class="menu-allergy"></td>
                         </tr>
                         <tr>
                         <td class="menu-description">Burren Smoked Salmon, pickled cucumber, horseradish and summer potato salad</td>
                         <td>€11.75</td>
-                        <td>2,4</td>
+                        <td class="menu-allergy">2,4</td>
                         </tr>
                         <tr>
                         <td class="menu-description">Tola Goats Cheese, beetroot chutney, apple, organic salad leaves and Parmesan crumble</td>
                         <td>€9.95</td>
-                        <td>1,3,7</td>
+                        <td class="menu-allergy">1,3,7</td>
                         </tr>
                         <td class="menu-description">Confit duck leg, cranberry and hazelnut granola, pickled red cabbage, fig chutney</td>
                         <td>€9.95</td>
-                        <td>1,3,7</td>
+                        <td class="menu-allergy">1,3,7</td>
                         </tr>
                     </tbody>
                     </table>
@@ -192,41 +191,36 @@
                         <tr>
                         <th scope="col">Description</th>
                         <th scope="col">Price</th>
-                        <th scope="col">Food Allergan Advice</th>
+                        <th scope="col">Allergan Advice</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td class="menu-description">Garretts Angus Aged 12oz Rib Eye Steak with shallot onion, beef dripping chips and a choice of garlic herb butter or green pepper sauce</td>
                             <td>€29.75</td>
-                            <td>3,7</td>
+                            <td class="menu-allergy">3,7</td>
                             </tr>
                             <tr>
                             <td class="menu-description">Free range chicken, garlic, artichoke, butternut squash purée, Ballyhoura mushrooms and organic spinach</td>
                             <td>€24.25</td>
-                            <td>7</td>
+                            <td class="menu-allergy">7</td>
                             </tr>
                             <tr>
                             <td class="menu-description">Braised beef cheek, caramelised onion and horseradish purée, buttered leeks, onion and potato gratin</td>
                             <td>€23.50</td>
-                            <td>7</td>
+                            <td class="menu-allergy">7</td>
                             </tr>
                             <td class="menu-description">Roast Monkfish, prawn tortellini, tomato, fennel, and Dingle Gin velouté with garden pak choi</td>
                             <td>€26.95</td>
-                            <td>1,2,3,4,7</td>
+                            <td class="menu-allergy">1,2,3,4,7</td>
                             </tr>
                     </tbody>
                     </table>
-                    <div class="alert alert-dark" role="alert">
-                        Allergens:
-    (1) Gluten; (2) Crustaceans; (3) Eggs; (4) Fish; (5) Peanuts; (6) Soybeans; (7) Milk; (8) Nuts; (9) Celery; (10) Mustard; (11) Sesame seeds; (12) Sulphur dioxide and sulphites; (13) Lupin; (14) Molluscs.
-                    </div>
-            </div>
-
-        </section> 
-        
-        <section>  <!-- https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/-->
-            <div class="container" id="food-image-carousel">
+                </div>
+</div>
+    <div class="col-sm-12 col-md-5">
+  <!-- https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/-->
+            <div  id="food-image-carousel">
                 <div id="image-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
@@ -263,9 +257,13 @@
                 </a>
                 </div>
             </div>    
-        </section>
+    </div> 
+    <div class="alert alert-dark" role="alert">
+        Allergens:
+    (1) Gluten; (2) Crustaceans; (3) Eggs; (4) Fish; (5) Peanuts; (6) Soybeans; (7) Milk; (8) Nuts; (9) Celery; (10) Mustard; (11) Sesame seeds; (12) Sulphur dioxide and sulphites; (13) Lupin; (14) Molluscs.
     </div>
-
+</div>
+</div>
         <!-- Footer -->
         <footer id="site-footer">
             <div class="container" id="info-copyright-text">

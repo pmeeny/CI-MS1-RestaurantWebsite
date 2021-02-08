@@ -1,7 +1,6 @@
 # Lilys Restaurant
 
-One or two paragraphs providing an overview of your project.
-This project is a website for a restauarant
+This project is a website for a restauarant, it showcases the restaurant menu, team, awards and allows the user to book a table.
 
 Essentially, this part is your sales pitch.
  
@@ -32,6 +31,9 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Technologies Used
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+- [HTML] 
+    - The project uses
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
