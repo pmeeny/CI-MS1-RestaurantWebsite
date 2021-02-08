@@ -8,16 +8,15 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* ----- Color palette ----- */
-/* from here:https://colorhunt.co/palette/220248 or https://colorhunt.co/palette/22272 
-Primary Colour: 0f4c75
-Secondary: Gold: af8346
-Third Grey e8e8e8
-Fourth White ffffff
-Black: 
+/* ----- Color palette ----- 
+Primary Colour: #0f4c75 (Dark blue/navy)
+Secondary Colour: #af8346 (Gold)
+Grey: #e8e8e8
+White: #ffffff
+Black: #212529
 */
 
-/* --- Header --- */
+/* --- Header Colors --- */
 .navbar-light .navbar-nav .nav-link {
     color: #212529;
 }
@@ -26,7 +25,28 @@ Black:
     color: #0f4c75;
 }
 
-/* --- Four images and text --- */
+/* --- Navigation bar Colors --- */
+.modal-content {
+    background-color: #e8e8e8; 
+}
+
+.modal-header {
+    border-bottom: 1px solid #0f4c75;
+}
+
+.modal-body h5,h6 {
+    color: #212529;
+}
+
+.modal-header h5 {
+    color: #0f4c75;
+}
+
+.modal-footer {
+    border-top: 1px solid #0f4c75;
+}
+
+/* --- Four images and text Colors --- */
 .btn {
     background: #af8346;
     color: #ffffff;
@@ -38,27 +58,33 @@ Black:
     color: #ffffff;
 }
 
-
-.single-image-and-text {
+single-image-and-text {
   box-shadow: 15px 15px #e8e8e8;
-  width: 100%;
-  border-radius: 4px;
 }
 
 .image-text {
-    padding-top: 10px;
-    padding-bottom: 10px;
     background-color: #0f4c75;
-    text-align: center;
-    border-radius: 0 0 4px 4px;
 }
 
 .image-text h4,p {
     color: #f9f7f7;
 }
 
-/* --- Footer colors --- */
-.info-copyright-text p,h5,h6, i {
+/* -- Hero Image Colors-- */
+#hero-message {
+   background-color: rgba(232, 232, 232, 0.3);
+}
+
+#hero-message  h3,p {
+    color: #ffffff;
+ }
+
+ #hero-message small {
+    color: #ffffff;
+}
+
+/* --- Footer Colors --- */
+#info-copyright-text p,h5,h6, i {
     color: #ffffff;
 }
 
@@ -67,13 +93,6 @@ Black:
 }
 
 .social-icon {
-    width: 30px;
-    height: 30px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
     color: #e8e8e8;
     background: #af8346; 
 }
@@ -91,20 +110,63 @@ Black:
 }
 
 /* --- Menu colors --- */
-.menu-and-carousel {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.menu h4 {
+#menu h4 {
     color: #0f4c75;
 }
 
-.menu {
+#menu {
     background-color: #e8e8e8;
-    padding: 20px 20px 20px 20px;
-    border-radius: 4px 4px 0px 0px;
+}    
+
+#food-image-carousel {
+    background-color: #e8e8e8;
+
 }
+
+/* --- About Us Colors --- */
+.about-us-and-team {
+    background-color: #e8e8e8;
+}
+
+#about-us h3 {
+    color: #0f4c75;
+}
+
+#the-team h5{
+    color: #0f4c75;   
+}
+
+.team-member p{
+    color: #212529;
+}
+
+#about-us-and-team p{
+    color: #212529;   
+}
+
+.meet-the-team h3{
+    color: #0f4c75;   
+}
+
+/* --- Awards Colors --- */
+#awards {
+    background-color: #e8e8e8;
+}
+
+#awards p {
+    color: #212529;     
+}   
+
+#awards h3, h4{
+    color: #0f4c75;     
+}    
+
+#awards iframe {
+    border: 2px solid #0f4c75;
+}
+
+/* ----- End of Color palette ----- */
+
 
 /* ----- Navigation bar ----- */
 
@@ -131,37 +193,14 @@ Black:
      text-decoration: underline;
 }
 
-.modal-content {
-    background-color: #e8e8e8; 
-}
-
-.modal-header {
-    border-bottom: 1px solid #0f4c75;
-}
-
-.modal-body h5,h6 {
-    color: #212529;
-}
-
-.modal-header h5 {
-    color: #0f4c75;
-}
-
-
-.modal-footer {
-    border-top: 1px solid #0f4c75;
-}
-
 /* ----- Hero image and text ----- */
-.hero-image {
+#hero-image {
     height: 550px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/hero-image.jpg");
 }
 
-
 #hero-message {
    margin-top: 50px;
-   background-color: rgba(232, 232, 232, 0.3);
    width: 100%;
    height: 450px;
    max-width: 800px;
@@ -170,14 +209,12 @@ Black:
 }
 
 #hero-message  h3,p {
-    color: #ffffff;
     margin-bottom: 25px;
  }
 
  #hero-message small {
     font-size: 80%;
     font-style: italic;
-    color: #ffffff;
 }
 
 /* ----- Four images ----- */
@@ -186,7 +223,7 @@ Black:
     padding-bottom: 50px;
 }
 
-.dinner-image {
+#dinner-image {
     height: 250px;
     background-image: url("/assets/images/dinner.jpg");
     border-radius: 4px 4px 0 0;
@@ -194,7 +231,7 @@ Black:
     background-size:cover;
 }
 
-.kitchen-image {
+#kitchen-image {
     height: 250px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/kitchen.jpg");
@@ -202,7 +239,7 @@ Black:
     background-size:cover;
 }
 
-.menu-image {
+#menu-image {
     height: 250px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/menu.jpg");
@@ -210,7 +247,7 @@ Black:
     background-size:cover;
 }
 
-.table-image {
+#table-image {
     height: 250px;
     border-radius: 4px 4px 0 0;
     background-image: url("/assets/images/table_with_glasses.jpg");
@@ -226,14 +263,26 @@ Black:
 
 }
 
+.single-image-and-text {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+.image-text {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      border-radius: 0 0 4px 4px;
+  }
+  
 /* ----- Footer ----- */
-.site-footer {
+#site-footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/footer-image.jpg");
     background-repeat: no-repeat;
     background-size:cover;
 }
 
-.info-copyright-text {
+#info-copyright-text {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -243,6 +292,16 @@ Black:
 }
 
 /* ----- Menu ----- */
+#menu {
+    padding: 20px 20px 20px 20px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+#menu-and-carousel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .menu-description {
     max-width: 600px;
 }
@@ -251,9 +310,7 @@ Black:
     padding-bottom: 30px;
     position: relative;
     border-radius: 0px 0px 4px 4px;
-    background-color: #e8e8e8;
     padding: 20px 20px 20px 20px;
-
 }
 
 .carousel-item {
@@ -265,30 +322,30 @@ Black:
     height:100%;
 }
 
+.social-icon {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+}
 
 /* ----- About Us ----- */
-.about-us-and-team {
+#about-us-and-team {
     text-align: center;
-    background-color: #e8e8e8;
     padding: 20px 20px 20px 20px;
     margin-bottom: 20px;
     border-radius: 4px;
 }
 
-.about-us {
+#about-us {
     margin-bottom: 10px; 
 }
 
-.about-us h3 {
-    color: #0f4c75;
-}
-
-.the-team {
+#the-team {
     margin: 0 auto;
-}
-
-.the-team h5{
-    color: #0f4c75;   
 }
 
 .team-member img {
@@ -301,38 +358,15 @@ Black:
     margin-right: 10px;
 }
 
-.team-member p{
-    color: #212529;
-}
-
-.about-us-and-team p{
-    color: #212529;   
-}
-
-.meet-the-team h3{
-    color: #0f4c75;   
-}
-
 /* --- Awards --- */
-.awards {
+#awards {
     text-align: center;
-    background-color: #e8e8e8;
     padding: 20px 20px 20px 20px;
     margin-bottom: 20px;
     border-radius: 4px;
 }
 
-.awards p {
-    color: #212529;     
-}   
-
-.awards h3, h4{
-    color: #0f4c75;     
-}    
-
-
-.awards iframe {
-    border: 2px solid #0f4c75;
+#awards iframe {
     border-radius: 4px;
     height: 350px;
     max-width: 350px;
