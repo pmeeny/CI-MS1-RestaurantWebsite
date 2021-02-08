@@ -85,56 +85,68 @@
                             <div class="modal-body">
                                 <form>
                                     <h6>To book a table fill in the details below and click the Book a table button</h6>
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                        <input type="text" class="form-control" id="firstName" placeholder="Name">
-                                        </div>    
-                                    </div>    
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number">
+                                    <div class="form-group row">
+                                        <label for="name" class="col-5 col-form-label">Name</label>
+                                        <div class="col-7">
+                                          <input class="form-control" type="text" placeholder="Joe Bloggs" id="name">
                                         </div>
-                                    </div>    
-                                    <div class="form-row"> 
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" id="emailAddress" placeholder="Email Address">
-                                        </div>
-                                    </div>    
-                                    <div class="form-row">
-                                        <div class="form-group">
-                                            <label for="exampleFormControlSelect1">Number of guests</label>
-                                            <select class="form-control" id="exampleFormControlSelect1">
-                                              <option>1</option>
-                                              <option>2</option>
-                                              <option>3</option>
-                                              <option>4</option>
-                                              <option>5</option>
-                                              <option>6</option>
-                                              <option>7</option>
-                                              <option>8</option>
-                                              <option>9</option>
-                                              <option>10</option>
-                                              <option>11</option>
-                                              <option>12</option>
-                                              <option>13</option>
-                                              <option>14</option>
-                                              <option>15</option>
-                                              <option>16</option>
-                                              <option>17</option>
-                                              <option>18</option>
-                                              <option>19</option>
-                                              <option>20</option>
-                                            </select>
-                                          </div>
                                     </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn">Book a table</button>
+
+                                    <div class="form-group row">
+                                        <label for="phoneNumber" class="col-5 col-form-label">Phone Number</label>
+                                        <div class="col-7">
+                                          <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label for="emailAddress" class="col-5 col-form-label">Email Address</label>
+                                        <div class="col-7">
+                                          <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                            <label for="noOfGuests" class="col-5 col-form-label">Number of guests</label>
+                                            <div class="col-7">  
+                                                <select class="form-control" id="noOfGuests">  
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14</option>
+                                                <option>15</option>
+                                                <option>16</option>
+                                                <option>17</option>
+                                                <option>18</option>
+                                                <option>19</option>
+                                                <option>20</option>
+                                                </select>
+                                            </div>    
+                                    </div> 
+                                    <div class="form-group row">
+                                        <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
+                                        <div class="col-7">
+                                          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTime">
+                                        </div>
+                                      </div>
+                                </form>    
+                                <div class="modal-footer">
+                                <button type="button" class="btn" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn">Book a table</button>
+                                </div>
                             </div>
                         </div>
-                        </div>
                     </div>
-
                 </div>    
             </nav>
         </div>
