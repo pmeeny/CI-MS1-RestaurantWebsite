@@ -25,16 +25,14 @@
     <script>
         // Initialize and add the map
         function initMap() {
-          // The location of Uluru
-          const uluru = { lat: -25.344, lng: 131.036 };
-          // The map, centered at Uluru
+          const restaurant = { lat: 52.660, lng: -8.631 };
           const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
-            center: uluru,
+            zoom: 14,
+            center: restaurant,
           });
-          // The marker, positioned at Uluru
+          // The marker, positioned at the restaurant
           const marker = new google.maps.Marker({
-            position: uluru,
+            position: restaurant,
             map: map,
           });
         }
@@ -43,6 +41,7 @@
 </head>
 
 <body>
+    <!-- Header --> 
     <header>
         <!-- Navigation Bar -->
         <div class="nav-bar">
@@ -64,12 +63,12 @@
                         <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="awards.html">Awards</a></li>
                     </ul>
                  </div>
 
                 <!-- Book a table modal --> 
-                <div class="d-none d-md-block">
+                <div class="d-none d-lg-block d-xl-block">
                     <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
 
                     <!-- Modal -->
@@ -136,7 +135,7 @@
                                     <div class="form-group row">
                                         <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                         <div class="col-7">
-                                          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTime">
+                                          <input class="form-control" type="datetime-local"  id="dateTime">
                                         </div>
                                       </div>
                                 </form>    
@@ -156,6 +155,19 @@
     <section>
         <!-- Hero image -->   
         <div class="hero-image container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <section class="jumbotron" id="hero-message">
+                        <h3>Welcome to Lily's Restaurant</h3>
+                        <p>The style of cuisine is modern Irish and the restaurant prides itself on using fresh produce in season; most of which is sourced locally. One of the main aims of Lily's is to give quality food and service at a reasonable price. We also offer an outdoor catering service where we deliver to your desired location.</p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
+                        <p><small>Note: Due to COVID-19 restrictions, we are limited in the number of tables we can cater for in one sitting</small></p>
+                    </section>
+                </div>
+            </div>
+
+
+            </div>
         </div>    
     </section> 
  
@@ -181,7 +193,7 @@
                         <div class="menu-image"></div>
                         <div class="image-text">
                             <h4>Menus</h4>
-                            <p class="inline-block">Check out our extensive menu</p>
+                            <p class="inline-block">Check out our new menu</p>
                             <div class="button-holder">
                                 <a class="btn" href="menu.html">Menu</a>
                             </div>
@@ -192,10 +204,10 @@
                     <div class="single-image-and-text">
                         <div class="kitchen-image" alt="Image of a kitchen"></div>
                         <div class="image-text">
-                            <h4>Gift cards</h4>
+                            <h4>About Us</h4>
                             <p class="inline-block">Meet our team</p>
                             <div class="button-holder">
-                                <a class="btn" href="">About Us</a>
+                                <a class="btn" href="about-us.html">About Us</a>
                             </div>    
                         </div>    
                     </div>    
@@ -251,10 +263,12 @@
                     <div class="col-sm-12 col-md-4">
                     </div>
                     <div class="social-icons col-sm-12 col-md-4">
-                        <i class="fa fa-facebook social-icon"></i>
-                        <i class="fa fa-twitter social-icon"></i>
-                        <i class="fa fa-snapchat social-icon"></i>
-                        <i class="fa fa-instagram social-icon"></i>
+                        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook social-icon"></i></a>
+                        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter social-icon"></i></a>
+                        <a href="http://www.snapchat.com" target="_blank"><i class="fa fa-snapchat social-icon"></i></a>
+                        <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram social-icon"></i></a>
+                        <a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest social-icon"></i></a>
+                        <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin social-icon"></i></a>
                     </div>
                 </div>
             </div>

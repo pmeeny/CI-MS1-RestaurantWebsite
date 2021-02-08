@@ -21,9 +21,27 @@
     <!-- User style css --> 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
+     <!-- Google Map Javascript -->    
+     <script>
+        // Initialize and add the map
+        function initMap() {
+          const restaurant = { lat: 52.660, lng: -8.631 };
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 14,
+            center: restaurant,
+          });
+          // The marker, positioned at the restaurant
+          const marker = new google.maps.Marker({
+            position: restaurant,
+            map: map,
+          });
+        }
+      </script>
+
 </head>
 
 <body>
+    <!-- Header --> 
     <header>
         <!-- Navigation Bar -->
         <div class="nav-bar">
@@ -42,15 +60,15 @@
                 <!-- Menu Items -->       
                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav"> 
-                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="awards.html">Awards</a></li>
                     </ul>
                  </div>
 
                 <!-- Book a table modal --> 
-                <div class="d-none d-md-block">
+                <div class="d-none d-lg-block d-xl-block">
                     <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
 
                     <!-- Modal -->
@@ -117,7 +135,7 @@
                                     <div class="form-group row">
                                         <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                         <div class="col-7">
-                                          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTime">
+                                          <input class="form-control" type="datetime-local"  id="dateTime">
                                         </div>
                                       </div>
                                 </form>    
@@ -133,40 +151,109 @@
         </div>
     
     </header>
-        <div class="container about-us-and-team">
-            <div class="row about-us">
-                <div class="col-sm-12">
-                        <h3>Awards</h3>
-                        <p>The style of cuisine is modern Irish and the restaurant prides itself on using fresh produce in season; most of which is sourced locally. One of the main aims of Lily's is to give quality food and service at a reasonable price. We also offer an outdoor catering service where we deliver to your desired location.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="">
-                            <div class="" alt="Image of a dinner plate"></div>
-                        </div>    
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="">
-                            <div class="" alt="Image of a kitchen"></div>
-                        </div>    
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-                        <div class="">
-                            <div class="" alt="Image of a kitchen"></div>
-                        </div>    
-                    </div>
-                </div>
+
+
+    <div class="container awards">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Awards</h3>
+                <p>The style of cuisine is modern Irish and the restaurant prides itself on using fresh produce in season; most of which is sourced locally. One of the main aims of Lily's is to give quality food and service at a reasonable price. We also offer an outdoor catering service where we deliver to your desired location.</p>
             </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="accordion" id="awardAccordion">
+                    <div class="card">
+                        <div class="card-header" id="awardHeadingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        2020 
+                                </button>
+                            </h2>
+                        </div>      
+                                   
+                        <div id="collapseOne" class="collapse show" aria-labelledby="awardHeadingOne" data-parent="#awardAccordion">
+                            <div class="card-body">
+                                 Michelin Star   
+                            </div>
+                            <div class="card-body">
+                                Bridgestone Award
+                            </div>
+                            <div class="card-body">
+                                McKenna Guide
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" id="awardHeadingTwo">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    2019
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="awardHeadingTwo" data-parent="#awardAccordion">
+                                <div class="card-body">
+                                    Michelin Star   
+                                </div>
+                                <div class="card-body">
+                                    Bridgestone Award
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" id="awardHeadingThree">
+                                <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    2018
+                                </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="awardHeadingThree" data-parent="#awardAccordion">
+                                <div class="card-body">
+                                    Michelin Star   
+                                </div>
+                                <div class="card-body">
+                                    Bridgestone Award
+                                </div>
+                                <div class="card-body">
+                                    McKenna Guide
+                                </div>
+                            </div>
+                    </div>
+                    <div class="card">
+                                <div class="card-header" id="awardHeadingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                    2017
+                                    </button>
+                                </h2>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="awardHeadingFour" data-parent="#awardAccordion">
+                                    <div class="card-body">
+                                        Michelin Star   
+                                    </div>
+                                    <div class="card-body">
+                                        Bridgestone Award
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="col-sm-12 col-md-6">
+                <h4>Michelin Star Awards 2020</h4>
+                <iframe src="https://www.youtube.com/watch?v=kFiSU6kLrTs" allowfullscreen></iframe>
+            </div>    
         </div>   
- 
+    </div> 
+
     <!-- Footer -->
     <footer class="site-footer">
         <div class="container info-copyright-text">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <h5>Contact Us</h5>
-                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Dublin 4, Ireland</p><br>
+                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p><br>
                     <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
                     <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
                 </div>

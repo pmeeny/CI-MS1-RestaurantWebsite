@@ -21,9 +21,27 @@
     <!-- User style css --> 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
+     <!-- Google Map Javascript -->    
+     <script>
+        // Initialize and add the map
+        function initMap() {
+          const restaurant = { lat: 52.660, lng: -8.631 };
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 14,
+            center: restaurant,
+          });
+          // The marker, positioned at the restaurant
+          const marker = new google.maps.Marker({
+            position: restaurant,
+            map: map,
+          });
+        }
+      </script>
+
 </head>
 
 <body>
+    <!-- Header --> 
     <header>
         <!-- Navigation Bar -->
         <div class="nav-bar">
@@ -42,15 +60,15 @@
                 <!-- Menu Items -->       
                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav"> 
-                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="awards.html">Awards</a></li>
                     </ul>
                  </div>
 
                 <!-- Book a table modal --> 
-                <div class="d-none d-md-block">
+                <div class="d-none d-lg-block d-xl-block">
                     <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
 
                     <!-- Modal -->
@@ -117,7 +135,7 @@
                                     <div class="form-group row">
                                         <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                         <div class="col-7">
-                                          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTime">
+                                          <input class="form-control" type="datetime-local"  id="dateTime">
                                         </div>
                                       </div>
                                 </form>    
@@ -208,7 +226,7 @@
         </section> 
         
         <section>  <!-- https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/-->
-            <div class="container menu" id="food-image-carousel">
+            <div class="container" id="food-image-carousel">
                 <div id="image-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
@@ -247,49 +265,50 @@
             </div>    
         </section>
     </div>
-    <footer class="site-footer">
-        <div class="container info-copyright-text">
-            <div class="row">
-                <div class="col-sm-12 col-md-4">
-                    <h5>Contact Us</h5>
-                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Dublin 4, Ireland</p><br>
-                    <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
-                    <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <h5>Opening Hours</h5>
-                    <h6>Monday 12:00 – 21:30</h6>
-                    <h6>Tuesday 12:00 – 21:30</h6>            
-                    <h6>Wednesday 12:00 – 21:30</h6>
-                    <h6>Thursday 12:00 – 21:30</h6>
-                    <h6>Friday 12:00 – 21:30</h6>  
-                    <h6>Saturday 12:00 – 21:30</h6>   
-                    <h6>Sunday 12:00 – 21:30</h6>                             
-                </div>
-                <div class="col-sm-12 col-md-4">
-                    <h5>Find us on google maps</h5>  
-                    <!--The div element for the map -->
-                    <div id="map"></div>
-                </div>
-            </div>
-            <div class="copyright">
-                <hr class="ruler">
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container info-copyright-text">
                 <div class="row">
                     <div class="col-sm-12 col-md-4">
-                        <p>Copyright Test Website 2021</p>
+                        <h5>Contact Us</h5>
+                        <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p><br>
+                        <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
+                        <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
+                    </div>
+                    <div class="col-sm-12 col-md-4 opening-hours">
+                        <h5>Opening Hours</h5>
+                        <h6>Monday 12:00 – 21:30</h6>
+                        <h6>Tuesday 12:00 – 21:30</h6>            
+                        <h6>Wednesday 12:00 – 21:30</h6>
+                        <h6>Thursday 12:00 – 21:30</h6>
+                        <h6>Friday 12:00 – 21:30</h6>  
+                        <h6>Saturday 12:00 – 21:30</h6>   
+                        <h6>Sunday 12:00 – 21:30</h6>                             
                     </div>
                     <div class="col-sm-12 col-md-4">
+                        <h5>Find us on google maps</h5>  
+                        <!--The div element for the map -->
+                        <div id="map"></div>
                     </div>
-                    <div class="social-icons col-sm-12 col-md-4">
-                        <i class="fa fa-facebook social-icon"></i>
-                        <i class="fa fa-twitter social-icon"></i>
-                        <i class="fa fa-snapchat social-icon"></i>
-                        <i class="fa fa-instagram social-icon"></i>
+                </div>
+                <div class="copyright">
+                    <hr class="ruler">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <p>Copyright Test Website 2021</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                        </div>
+                        <div class="social-icons col-sm-12 col-md-4">
+                            <i class="fa fa-facebook social-icon"></i>
+                            <i class="fa fa-twitter social-icon"></i>
+                            <i class="fa fa-snapchat social-icon"></i>
+                            <i class="fa fa-instagram social-icon"></i>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
 </body>
 </html>   

@@ -21,9 +21,27 @@
     <!-- User style css --> 
     <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 
+     <!-- Google Map Javascript -->    
+     <script>
+        // Initialize and add the map
+        function initMap() {
+          const restaurant = { lat: 52.660, lng: -8.631 };
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 14,
+            center: restaurant,
+          });
+          // The marker, positioned at the restaurant
+          const marker = new google.maps.Marker({
+            position: restaurant,
+            map: map,
+          });
+        }
+      </script>
+
 </head>
 
 <body>
+    <!-- Header --> 
     <header>
         <!-- Navigation Bar -->
         <div class="nav-bar">
@@ -42,15 +60,15 @@
                 <!-- Menu Items -->       
                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav"> 
-                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="">Awards</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
+                        <li class="nav-item mr-2"><a class="nav-link" href="awards.html">Awards</a></li>
                     </ul>
                  </div>
 
                 <!-- Book a table modal --> 
-                <div class="d-none d-md-block">
+                <div class="d-none d-lg-block d-xl-block">
                     <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
 
                     <!-- Modal -->
@@ -117,7 +135,7 @@
                                     <div class="form-group row">
                                         <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                         <div class="col-7">
-                                          <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTime">
+                                          <input class="form-control" type="datetime-local"  id="dateTime">
                                         </div>
                                       </div>
                                 </form>    
@@ -132,8 +150,11 @@
             </nav>
         </div>
     
+ 
     </header>
-        <div class="container about-us-and-team">
+
+    <!-- About Us-->   
+    <div class="container about-us-and-team">
             <div class="row about-us">
                 <div class="col-sm-12">
                         <h3>About Us</h3>
@@ -148,17 +169,17 @@
                 </div>
                 <div class="row the-team">
                     <div class="col-sm-12 col-lg-4 team-member">
-                        <img src="assets/images/kitchen.jpg" alt="">
+                        <img src="assets/images/proprietor-image.jpg" alt="">
                         <h5>Chief Proprietor - John Kelly</h5>
                         <p>John trained and worked at the Adare Manor for three years. John was voted the Munster Young Chef of the year in 1997. He then worked abroad for a number of years in a number of 5 star hotels in London and Paris. In March 2007 he returned to ireland and set up Lily's Restaurant</p>
                     </div>
                         <div class="col-sm-12 col-lg-4 team-member">
-                        <img src="assets/images/kitchen.jpg" alt="">
+                        <img src="assets/images/headchef-image.jpg" alt="">
                         <h5>Head Chef - Keith Murphy</h5>
                         <p>Keith first started his career as a chef at The Gibson Hotel, Dublin at the age of 20, he then took up the role as Sous Chef of The Left Side Restaurant and shortly after, he was promoted to Head Chef. In 2008, Keith started in The Adare Manor where he spent 8 years as Sous Chef. Keith joined Lily's as Head Chef in October 2017.</p>
                     </div>
                         <div class="col-sm-12 col-lg-4 team-member">
-                        <img src="assets/images/kitchen.jpg" alt="">
+                        <img src="assets/images/manager-image.jpg" alt="">
                         <h5>Restaurant Manager - Rebecca Lee</h5>
                         <p>Rebecca first started in The Jury's Hotel, Galway at the age of 17, after two years he went to train and work at The Adare Manor. In May 2018, he returned to Jury's Hotel, Galway as Restaurant Supervisor, she was then promoted to Restaurant Manager in May 2019. Rebecca also takes a keen interest in all Marketing and Social Media aspects of the restaurant</p>
                     </div>
@@ -172,7 +193,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <h5>Contact Us</h5>
-                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Dublin 4, Ireland</p><br>
+                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p><br>
                     <p><i class="fas fa-phone-alt"></i></i> 01-12345678</p><br>
                     <p><i class="fas fa-inbox"></i></i></i> hello@lilys.ie</p><br>
                 </div>
