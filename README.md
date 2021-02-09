@@ -39,6 +39,18 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
+HTML - This was used to form the basic undecorated structure of the site. Implemented using html was all text, images, and basic structural layout.
+CSS - Css was used to decorate the site. This includes putting headers in the middle of the page, colouring backgrounds on the Carousel and footer , adding font sizes to the text and decorating the images with the border-radius style as just some examples.
+JavaScript - The modal used on the lessons page and taken from bootstrap ver. 4.3 uses Javasript.
+Bootstrap - Bootstrap vesion 4.3 was used in this site. This is a library to get ready made code that can be copy and pasted into ones own project. The code was then styled using my own CSS styling. The page is available here Link to Bootstrap version 4.3
+Google Fonts - This site was used to get the two font styles used in this project. Link to Google Fonts
+Font Awesome - This website provided the social media icons in the footer of my page. Link to Font Awesome
+Balsamiq - This site was used to create the wireframes from which I structured the look of the finished site. Link to Balsamiq
+Github - This site was used as a repository for updates to the progress of the site. Link to Github pages
+Git - This was used to record progress on the site via commits. These commits were then pushed to Github for a more concrete repository of the work.
+Gitpod - This is the editor used to code with. Link to Gitpod
+
+
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
