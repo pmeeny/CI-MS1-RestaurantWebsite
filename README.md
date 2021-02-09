@@ -16,6 +16,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+As a 
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -34,6 +36,26 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [HTML] ()
     - The project uses
+
+- [CSS] ()
+
+- [Bootstrap] ()
+
+- [Javascript] ()
+
+- Git
+
+Gitpod
+
+Github
+
+VSCode
+
+Google Fonts
+
+Balsamiq
+
+Font Awesome
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -77,6 +99,11 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Bugs found and fixed during testing
 
+1. When deployed, images not appearing, solution was to update image location, and move the src attribute into the html
+2. The book a table button in the navr bar was appear on phone and tablet devices, solution was to hide it
+3. The carsoule was too big
+4. The modal was not appearing on phone and tablet devices . Issue was the modal was incorrectly under this div, and only the button should be under this div <div class="d-none d-lg-block d-xl-block">
+
 ## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
@@ -90,13 +117,20 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 
 ## Credits
+Image Carousel
+https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Pixabay
+
+- The video used in this site was obtained from Youtube
 
 ### Acknowledgements
+
+Jumbotron
+Whiskey project
 
 - I received inspiration for this project from X

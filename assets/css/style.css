@@ -274,6 +274,8 @@ single-image-and-text {
 .single-image-and-text {
     width: 100%;
     border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
 .image-text {
@@ -299,6 +301,10 @@ single-image-and-text {
     text-align: right;
 }
 
+#opening-hours{
+    padding-bottom: 20px;  
+}
+
 /* ----- Menu ----- */
 #menu-and-carousel {
     margin-right: auto;
@@ -308,7 +314,8 @@ single-image-and-text {
 }
 
 .menu-description {
-    max-width: 45px;
+    max-width: 400px;
+    min-width: 100px;
 }
 
 .menu-allergy {
@@ -415,6 +422,7 @@ single-image-and-text {
          margin-top:20px;
     }
 
+    /* ----- Awards page----- */
     #awards iframe {
         height: 250px;
     }
@@ -442,6 +450,11 @@ single-image-and-text {
     #awards iframe {
         height: 250px;
     }
+
+    /* --- Menu --- */
+    .menu-allergy {
+        min-width: 50px;
+    }
 }
 
 /* X-SMALL SCREEN */
@@ -464,5 +477,10 @@ single-image-and-text {
 
     #awards iframe {
         height: 250px;
+    }
+
+    /* --- Menu --- */
+    .menu-allergy {
+        min-width: 50px;
     }
 }   
