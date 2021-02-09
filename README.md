@@ -13,6 +13,13 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+Primary Colour: #0f4c75 (Dark blue/navy)
+Secondary Colour: #af8346 (Gold)
+Grey: #e8e8e8
+White: #ffffff
+Black: #212529
+
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
@@ -34,28 +41,38 @@ In addition, you may also use this section to discuss plans for additional featu
 
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [HTML] ()
-    - The project uses
+- HTML (https://en.wikipedia.org/wiki/HTML)
+    - The project uses html to build the relevant pages
 
-- [CSS] ()
+- CSS (https://en.wikipedia.org/wiki/CSS)
+    - The project uses CSS to style the relevant pages
 
-- [Bootstrap] ()
+- [Bootstrap 4.6] (https://getbootstrap.com/docs/4.6)
+    - The project uses the bootsttrap library for some of the UI components in the website
 
-- [Javascript] ()
+- [Javascript] (https://www.javascript.com/)
+    - Javascript was used for display the google map
 
-- Git
+- [Git] ()
+    - Git was used as the source control tool for this project
 
-Gitpod
+- Gitpod (https://gitpod.io/)
+    - An online Integrated Development Enviroment
 
-Github
+Github (https://github.com/)
+    - Githib was used to store the project code in a repository
 
-VSCode
+VSCode (https://code.visualstudio.com/)
+    A locally installed Integrated Development Enviroment
 
-Google Fonts
+Google Fonts (https://fonts.google.com/)
+    - An online Integrated Development Enviroment
 
-Balsamiq
+Balsamiq (https://balsamiq.com/)
+    - Balsamiq was used to create the website wireframes
 
-Font Awesome
+Font Awesome (https://fontawesome.com/)
+    - Font awesome was used to provide the relevant fonts/icons for the website
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -120,6 +137,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 Image Carousel
 https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
+w3schools
+
+Gooe map code taken from 
+
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
@@ -132,5 +153,6 @@ https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
 Jumbotron
 Whiskey project
+
 
 - I received inspiration for this project from X

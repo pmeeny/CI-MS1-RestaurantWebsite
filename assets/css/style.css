@@ -124,7 +124,6 @@ single-image-and-text {
 
 #food-image-carousel {
     background-color: #e8e8e8;
-
 }
 
 #menu-and-carousel {
@@ -276,6 +275,7 @@ single-image-and-text {
     border-radius: 4px;
     padding-left: 10px;
     padding-right: 10px;
+    min-width: 250px;
   }
   
 .image-text {
@@ -311,6 +311,7 @@ single-image-and-text {
     margin-left: auto;
     padding: 20px 20px 20px 20px;
     margin-bottom: 20px; 
+    border-radius: 4px;
 }
 
 .menu-description {
