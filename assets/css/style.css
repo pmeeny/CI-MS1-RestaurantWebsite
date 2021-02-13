@@ -1,6 +1,6 @@
 /* ----- Google Fonts import ----- */
-/* ----- Lato, weights 300, 400, 500, 600, 700, 800 ----- */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400,500,600,700,800&display=swap');
+/* ----- Lato, weights 600 ----- */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 
 /* ----- Font ----- */
@@ -338,7 +338,7 @@ single-image-and-text {
     height:100%;
 }
 
-.social-icon {
+.social-icons a i{
     width: 30px;
     height: 30px;
     padding: 12px 0;

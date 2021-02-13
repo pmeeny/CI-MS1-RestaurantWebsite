@@ -1,10 +1,27 @@
 # Lilys Restaurant
 
-This project is a website for a restauarant, it showcases the restaurant menu, team, awards and allows the user to book a table.
+This project is a website for a fictional restaurant names "Lily's Restauarant"
+The website showcases the restaurant, its menu, team, awards and allows the user to book a table.
 
-Essentially, this part is your sales pitch.
- 
+The website is deployed using GIThub pages at the following url: 
+The repositiry on GITHub that stores the website source code and assets is available at the folowing url: 
+
+![Responsive site example](/assets/images/responsive_devices.png)
+
 ## UX
+List of User Stories
+- Requirement 1: As a user I want to view the restaurant operating times
+- Requirement 2: As a user I want to view the restaurant phone number
+- Requirement 3: As a user I want to view the restaurant email address
+- Requirement 4: As a user I want to view the restaurant location in a map
+- Requirement 5: As a user I want to view the restaurant facebook page
+- Requirement 5: As a user I want to view the restaurant facebook page
+- Requirement 5: As a user I want to view the restaurant facebook page
+
+- Requirement 5: As a user I want to view the restaurant menu
+- Requirement 6: As a user I want to view the restaurant team members
+- Requirement 7: As a user I want to view the restaurant awards
+- Requirement 8: As a user I want to view the restaurant awards video
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
@@ -12,6 +29,10 @@ In particular, as part of this section we recommend that you provide a list of U
 - As a user type, I want to perform an action, so that I can achieve a goal.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+
+
+Color Palette
+![Responsive site example](/assets/images/color_palette.png)
 
 Primary Colour: #0f4c75 (Dark blue/navy)
 Secondary Colour: #af8346 (Gold)
@@ -22,9 +43,15 @@ Black: #212529
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+- Index - This is the homepage
 
-As a 
+- Menu
+
+- About Us
+
+- Table Booking
+
+- Awards
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -38,63 +65,57 @@ In addition, you may also use this section to discuss plans for additional featu
 - Another feature idea
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
 - HTML (https://en.wikipedia.org/wiki/HTML)
     - The project uses html to build the relevant pages
 
 - CSS (https://en.wikipedia.org/wiki/CSS)
     - The project uses CSS to style the relevant pages
 
-- [Bootstrap 4.6] (https://getbootstrap.com/docs/4.6)
+- Bootstrap 4.6 (https://getbootstrap.com/docs/4.6)
     - The project uses the bootsttrap library for some of the UI components in the website
 
-- [Javascript] (https://www.javascript.com/)
+- Javascript (https://www.javascript.com/)
     - Javascript was used for display the google map
 
-- [Git] ()
+- Git (https://git-scm.com/)
     - Git was used as the source control tool for this project
 
 - Gitpod (https://gitpod.io/)
     - An online Integrated Development Enviroment
 
-Github (https://github.com/)
+- Github (https://github.com/)
     - Githib was used to store the project code in a repository
 
-VSCode (https://code.visualstudio.com/)
+- Microsoft VSCode (https://code.visualstudio.com/)
     A locally installed Integrated Development Enviroment
 
-Google Fonts (https://fonts.google.com/)
-    - An online Integrated Development Enviroment
+- Google Fonts (https://fonts.google.com/)
+    - Google font Lato was used as the website font
 
-Balsamiq (https://balsamiq.com/)
+- Balsamiq (https://balsamiq.com/)
     - Balsamiq was used to create the website wireframes
 
-Font Awesome (https://fontawesome.com/)
+- Font Awesome (https://fontawesome.com/)
     - Font awesome was used to provide the relevant fonts/icons for the website
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+- JQuery (https://jquery.com)
+    - JQuery was required by boostrap for some of the the UI components, for example the carosoul
 
-
-HTML - This was used to form the basic undecorated structure of the site. Implemented using html was all text, images, and basic structural layout.
-CSS - Css was used to decorate the site. This includes putting headers in the middle of the page, colouring backgrounds on the Carousel and footer , adding font sizes to the text and decorating the images with the border-radius style as just some examples.
-JavaScript - The modal used on the lessons page and taken from bootstrap ver. 4.3 uses Javasript.
-Bootstrap - Bootstrap vesion 4.3 was used in this site. This is a library to get ready made code that can be copy and pasted into ones own project. The code was then styled using my own CSS styling. The page is available here Link to Bootstrap version 4.3
-Google Fonts - This site was used to get the two font styles used in this project. Link to Google Fonts
-Font Awesome - This website provided the social media icons in the footer of my page. Link to Font Awesome
-Balsamiq - This site was used to create the wireframes from which I structured the look of the finished site. Link to Balsamiq
-Github - This site was used as a repository for updates to the progress of the site. Link to Github pages
-Git - This was used to record progress on the site via commits. These commits were then pushed to Github for a more concrete repository of the work.
-Gitpod - This is the editor used to code with. Link to Gitpod
-
+- TinyPNG https://tinypng.com/
 
 ## Testing
 
 Table of testing
 
-IE11, Mozilla, Chrome, IPhone, Ipad
+
+Requirement | Desktop(Chrome 86.0) | Desktop(Mozilla) | Desktop(IE 11) | Ipad | IPhone | OnePlus 5(Android, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | ------------- | -------------
+Requirement 1 | Passed | Passed | Passed | Passed | Passed | Passed
+Requirement 1 | Passed | Passed | Passed | Passed | Passed | Passed
+
+1. Awards Page
+    1. Go to the "Awards" page
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -111,9 +132,6 @@ For any scenarios that have not been automated, test the user stories manually a
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 Bugs found and fixed during testing
 
 1. When deployed, images not appearing, solution was to update image location, and move the src attribute into the html
@@ -122,6 +140,8 @@ Bugs found and fixed during testing
 4. The modal was not appearing on phone and tablet devices . Issue was the modal was incorrectly under this div, and only the button should be under this div <div class="d-none d-lg-block d-xl-block">
 
 ## Deployment
+
+The website was deployed on GITHub pages (https://pages.github.com/)
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -145,9 +165,11 @@ Gooe map code taken from
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from Pixabay
+- Pixabay (https://pixabay.com/)
+    - The photos used in this site were obtained from Pixabay
 
-- The video used in this site was obtained from Youtube
+- Youtube (https://www.youtube.com/)
+    - The video used in this site(awards.html) was obtained from Youtube
 
 ### Acknowledgements
 
