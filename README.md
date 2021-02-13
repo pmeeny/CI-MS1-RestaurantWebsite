@@ -41,6 +41,16 @@ White: #ffffff
 Black: #212529
 
 
+Wireframes
+The wireframes are stored in GIT
+Desktop
+
+
+Tablet
+
+
+Mobile
+
 ## Features
 
 - Index - This is the homepage
