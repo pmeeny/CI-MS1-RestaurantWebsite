@@ -28,17 +28,16 @@ Desktop
 - [About Us](assets/wireframes/desktop/about-us_desktop.png)
 
 Tablet
-- [Index](assets/wireframes/desktop/index_tablet.png)
-- [Menu](assets/wireframes/desktop/menu_tablet.png)
-- [Awards](assets/wireframes/desktop/awards_tablet.png)
-- [About Us](assets/wireframes/desktop/about-us_tablet.png)
-
+- [Index](assets/wireframes/tablet/index_tablet.png)
+- [Menu](assets/wireframes/tablet/menu_tablet.png)
+- [Awards](assets/wireframes/tablet/awards_tablet.png)
+- [About Us](assets/wireframes/tablet/about-us_tablet.png)
 
 Mobile
-- [Index](assets/wireframes/desktop/index_mobile.png)
-- [Menu](assets/wireframes/desktop/menu_mobile.png)
-- [Awards](assets/wireframes/desktop/awards_mobile.png)
-- [About Us](assets/wireframes/desktop/about-us_mobile.png)
+- [Index](assets/wireframes/mobile/index_mobile.png)
+- [Menu](assets/wireframes/mobile/menu_mobile.png)
+- [Awards](assets/wireframes/mobile/awards_mobile.png)
+- [About Us](assets/wireframes/mobile/about-us_mobile.png)
 
 ## Features
 The website has four pages: Index, About Us, Menu and Awards. Below are the main requirements for the website.
