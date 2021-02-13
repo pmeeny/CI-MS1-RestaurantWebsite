@@ -70,9 +70,9 @@
                  </div>
 
                 <!-- Book a table modal --> 
-                <div class="d-none d-lg-block d-xl-block">
-                    <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</button>
-
+                    <div class="d-none d-lg-block d-xl-block">
+                        <button type="button" class="btn" data-toggle="modal" data-target="#bookingModal" alt="Book a table button">Book a table</button>
+                    </div>    
                     <!-- Modal -->
                     <div class="modal fade" id="bookingModal" tabindex="-1" role="dialog" aria-labelledby="tableBookingModal" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -87,23 +87,23 @@
                                     <form>
                                         <h6 id="book-table-text">To book a table fill in the details below and click the Book a table button</h6>
                                         <div class="form-group row">
-                                            <label for="name" class="col-5 col-form-label">Name</label>
+                                            <label for="name" class="col-5 col-form-label">Full Name</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="text" placeholder="Joe Bloggs" id="name">
+                                            <input class="form-control" type="text" placeholder="Joe Bloggs" id="name" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="phoneNumber" class="col-5 col-form-label">Phone Number</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber">
+                                            <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="emailAddress" class="col-5 col-form-label">Email Address</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress">
+                                            <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress" required>
                                             </div>
                                         </div>
 
@@ -137,24 +137,23 @@
                                         <div class="form-group row">
                                             <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="datetime-local"  id="dateTime">
+                                            <input class="form-control" type="datetime-local"  id="dateTime" required>
                                             </div>
                                         </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn">Book a table</button>
+                                        </div>
                                     </form>    
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn">Book a table</button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div> 
                 </div> 
             </nav>  
         </div>    
     </header>
 
-    <!-- About Us-->   
+    <!-- About Us and meet the team-->   
     <div class="container" id="about-us-and-team">
             <div class="row" id="about-us">
                 <div class="col-sm-12">
@@ -171,17 +170,17 @@
             </div> 
             <div class="row" id="the-team">
                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 team-member">
-                        <img src="assets/images/proprietor-image.jpg" alt="Proprietor image">
+                        <img src="assets/images/proprietor-image.jpg" alt="proprietor john kelly">
                         <h5>Chief Proprietor - John Kelly</h5>
                         <p>John trained and worked at the Adare Manor for three years. John was voted the Munster Young Chef of the year in 1997. He then worked abroad for a number of years in a number of 5 star hotels in London and Paris. In March 2007 he returned to ireland and set up Lily's Restaurant</p>
                     </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 team-member">
-                        <img src="assets/images/headchef-image.jpg" alt="Head Chef image">
+                        <img src="assets/images/headchef-image.jpg" alt="head chef keith murphy">
                         <h5>Head Chef - Keith Murphy</h5>
                         <p>Keith first started his career as a chef at The Gibson Hotel, Dublin at the age of 20, he then took up the role as Sous Chef of The Left Side Restaurant and shortly after, he was promoted to Head Chef. In 2008, Keith started in The Adare Manor where he spent 8 years as Sous Chef. Keith joined Lily's as Head Chef in October 2017.</p>
                     </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-4 team-member">
-                        <img src="assets/images/manager-image.jpg" alt="Manager image">
+                        <img src="assets/images/manager-image.jpg" alt="restauarant manager rebecca lee">
                         <h5>Restaurant Manager - Rebecca Lee</h5>
                         <p>Rebecca first started in The Jury's Hotel, Galway at the age of 17, after two years he went to train and work at The Adare Manor. In May 2018, he returned to Jury's Hotel, Galway as Restaurant Supervisor, she was then promoted to Restaurant Manager in May 2019. Rebecca also takes a keen interest in all Marketing and Social Media aspects of the restaurant</p>
                     </div>
@@ -194,9 +193,9 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <h5>Contact Us</h5>
-                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p><br>
-                    <p><i class="fas fa-phone-alt"></i> 01-12345678</p><br>
-                    <p><i class="fas fa-inbox"></i> hello@lilys.ie</p><br>
+                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p>
+                    <p><i class="fas fa-phone-alt"></i> 01-12345678</p>
+                    <p><i class="fas fa-inbox"></i> hello@lilys.ie</p>
                 </div>
                 <div class="col-sm-12 col-md-4" id="opening-hours">
                     <h5>Opening Hours</h5>
@@ -206,7 +205,7 @@
                     <h6>Thursday 12:00 – 21:30</h6>
                     <h6>Friday 12:00 – 21:30</h6>  
                     <h6>Saturday 12:00 – 21:30</h6>   
-                    <h6>Sunday 12:00 – 21:30</h6>                             
+                    <h6>Sunday 12:00 – 21:30</h6>    
                 </div>
                 <div class="col-sm-12 col-md-4">
                     <h5>Find us on google maps</h5>  
@@ -223,12 +222,12 @@
                     <div class="col-sm-12 col-md-4">
                     </div>
                     <div class="social-icons col-sm-12 col-md-4">
-                        <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook social-icon"></i></a>
-                        <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter social-icon"></i></a>
-                        <a href="http://www.snapchat.com" target="_blank"><i class="fa fa-snapchat social-icon"></i></a>
-                        <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram social-icon"></i></a>
-                        <a href="http://www.pinterest.com" target="_blank"><i class="fa fa-pinterest social-icon"></i></a>
-                        <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin social-icon"></i></a>
+                        <a href="http://www.facebook.com" target="_blank" alt="Facebook" rel="noreferrer"><i class="fa fa-facebook social-icon"></i></a>
+                        <a href="http://www.twitter.com" target="_blank" alt="Twitter" rel="noreferrer"><i class="fa fa-twitter social-icon"></i></a>
+                        <a href="http://www.snapchat.com" target="_blank" alt="Snapchat" rel="noreferrer"><i class="fa fa-snapchat social-icon"></i></a>
+                        <a href="http://www.instagram.com" target="_blank" alt="Instagram" rel="noreferrer"><i class="fa fa-instagram social-icon"></i></a>
+                        <a href="http://www.pinterest.com" target="_blank" alt="Pinterest" rel="noreferrer"><i class="fa fa-pinterest social-icon"></i></a>
+                        <a href="http://www.linkedin.com" target="_blank" alt="LinkedIn" rel="noreferrer"><i class="fa fa-linkedin social-icon"></i></a>
                     </div>
                 </div>
             </div>

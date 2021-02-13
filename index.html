@@ -87,23 +87,23 @@
                                     <form>
                                         <h6 id="book-table-text">To book a table fill in the details below and click the Book a table button</h6>
                                         <div class="form-group row">
-                                            <label for="name" class="col-5 col-form-label">Name</label>
+                                            <label for="name" class="col-5 col-form-label">Full Name</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="text" placeholder="Joe Bloggs" id="name">
+                                            <input class="form-control" type="text" placeholder="Joe Bloggs" id="name" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="phoneNumber" class="col-5 col-form-label">Phone Number</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber">
+                                            <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="emailAddress" class="col-5 col-form-label">Email Address</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress">
+                                            <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress" required>
                                             </div>
                                         </div>
 
@@ -137,14 +137,14 @@
                                         <div class="form-group row">
                                             <label for="dateTime" class="col-5 col-form-label">Date and Time</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="datetime-local"  id="dateTime">
+                                            <input class="form-control" type="datetime-local"  id="dateTime" required>
                                             </div>
                                         </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn" data-dismiss="modal">Close</button>
+                                            <button type="submit" class="btn">Book a table</button>
+                                        </div>
                                     </form>    
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn">Book a table</button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -169,56 +169,56 @@
   
     <!-- Four images and text -->   
     <div class="container-fluid four-images-and-text">
-            <div class="row">
-                <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="single-image-and-text">
-                        <img id="dinner-image" alt="restauarant meal on a plate" src="assets/images/dinner.jpg">
-                        <div class="image-text">
-                            <h4>Book a table</h4>
-                            <p class="inline-block">You can book a table online</p>
-                            <div class="button-holder">
-                                <a class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</a>
-                            </div>
-                        </div>    
+        <div class="row">
+            <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="single-image-and-text">
+                    <img id="dinner-image" alt="restauarant meal on a plate" src="assets/images/dinner.jpg">
+                    <div class="image-text">
+                        <h4>Book a table</h4>
+                        <p class="inline-block">You can book a table online</p>
+                        <div class="button-holder">
+                            <a class="btn" data-toggle="modal" data-target="#bookingModal">Book a table</a>
+                        </div>
                     </div>    
-                </div>
-                <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="single-image-and-text">
-                        <img id="menu-image" alt="menu on a wall in a restauarant" src="assets/images/menu.jpg">
-                        <div class="image-text">
-                            <h4>Menus</h4>
-                            <p class="inline-block">Check out our new menu</p>
-                            <div class="button-holder">
-                                <a class="btn" href="menu.html">Menu</a>
-                            </div>
-                        </div>   
-                    </div>    
-                </div>
-                <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="single-image-and-text">
-                        <img id="kitchen-image" alt="chefs in a kitchen" src="assets/images/kitchen.jpg">
-                        <div class="image-text">
-                            <h4>About Us</h4>
-                            <p class="inline-block">Meet our team</p>
-                            <div class="button-holder">
-                                <a class="btn" href="about-us.html">About Us</a>
-                            </div>    
-                        </div>    
-                    </div>    
-                </div>
-                <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
-                    <div class="single-image-and-text">
-                        <img id="table-image" alt="restaurant table with multiple glasses" src="assets/images/table_with_glasses.jpg">
-                        <div class="image-text">
-                            <h4>Awards</h4>
-                            <p class="inline-block">Check out our list of awards</p>
-                            <div class="button-holder">
-                                <a class="btn" href="awards.html">Awards</a>
-                            </div>
-                        </div>   
-                    </div>    
-                </div>
+                </div>    
             </div>
+            <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="single-image-and-text">
+                    <img id="menu-image" alt="menu on a wall in a restauarant" src="assets/images/menu.jpg">
+                    <div class="image-text">
+                        <h4>Menus</h4>
+                        <p class="inline-block">Check out our new menu</p>
+                        <div class="button-holder">
+                            <a class="btn" href="menu.html">Menu</a>
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+            <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="single-image-and-text">
+                    <img id="kitchen-image" alt="chefs in a kitchen" src="assets/images/kitchen.jpg">
+                    <div class="image-text">
+                        <h4>About Us</h4>
+                        <p class="inline-block">Meet our team</p>
+                        <div class="button-holder">
+                            <a class="btn" href="about-us.html">About Us</a>
+                        </div>    
+                    </div>    
+                </div>    
+            </div>
+            <div class="full-image col-12 col-sm-6 col-md-6 col-lg-3">
+                <div class="single-image-and-text">
+                    <img id="table-image" alt="restaurant table with multiple glasses" src="assets/images/table_with_glasses.jpg">
+                    <div class="image-text">
+                        <h4>Awards</h4>
+                        <p class="inline-block">Check out our list of awards</p>
+                        <div class="button-holder">
+                               <a class="btn" href="awards.html">Awards</a>
+                        </div>
+                    </div>   
+                </div>    
+            </div>
+        </div>
     </div>
     
     <!-- Footer -->
