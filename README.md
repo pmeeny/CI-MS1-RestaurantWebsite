@@ -14,6 +14,8 @@ The repositiry on Github that stores the website source code and assets is avail
 ![Responsive site example](/assets/images/responsive_devices.png)
 
 ## UX
+Project Goals
+
 Color Palette
 - There are five colours in the color palette with a primary colour or #0f4c75(Dark Blue/Navy) and secondary colour of #af8346 (Gold)
 - The other colours used are a variation of Grey(#e8e8e8), White(#ffffff) and Black(#212529)
@@ -133,10 +135,10 @@ Awards
 Below are the test results of testing the website requirements against a range of browsers and devices
 
 
-Requirement | Desktop(Chrome 86.0) | Desktop(Mozilla) | Desktop(IE 11) | Ipad | IPhone | OnePlus 5(Android, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | ------------- | -------------
-Requirement 1: As a user I want to view the restaurant home page | Passed | Passed | Passed | Passed | Passed | Passed
-Requirement 2: As a user I want to book a table on the restaurant home page (Hero Image button) | Passed | Passed | Passed | Passed | Passed | Passed
+Requirement | Test Case Details | Expected Result |Desktop(Chrome 86.0) | Desktop(Mozilla) | Desktop(IE 11) | Ipad | IPhone | OnePlus 5(Android, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | ------------- | ------------- | -------------
+Requirement 1: As a user I want to view the restaurant home page| Enter the website url to access the website | The index/ome page loads | Passed | Passed | Passed | Passed | Passed | Passed
+Requirement 2: As a user I want to book a table on the restaurant home page (Hero Image button) | | Passed | Passed | Passed | Passed | Passed | Passed
 Requirement 3: As a user I want to book a table on the restaurant home page (Website body button) | Passed | Passed | Passed | Passed | Passed | Passed
 Requirement 4: As a user I want to view the menu on the restaurant home page (Website body button) | Passed | Passed | Passed | Passed | Passed | Passed
 Requirement 5: As a user I want to view the about us information (Website body button) | Passed | Passed | Passed | Passed | Passed | Passed
@@ -194,9 +196,22 @@ Bugs found and fixed during testing
 3. The carsoule was too big
 4. The modal was not appearing on phone and tablet devices . Issue was the modal was incorrectly under this div, and only the button should be under this div <div class="d-none d-lg-block d-xl-block">
 
-## Deployment
+## Website Validators
+The websites pages were run against the following validaotrs
 
-The website was deployed on GITHub pages (https://pages.github.com/)
+
+## Deployment
+The website was developed using initally the Gitpod IDE, but then I switched to use the Visual Studio Code IDE due to the extensibility of the Visual Studio Code IDE. The source code is stored in GIT in the repo: pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite(master branch) 
+The website was deployed on GitHub pages (https://pages.github.com/) using the following steps
+
+1. Log to GitHub (https://wwww.github.com)
+2. Click the Repositories tab and select the repository pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite 
+3. In the menu, select Setting
+4. Scroll down to the GitHub Pages section
+5. Under source, select the master branch and save
+6. The website is now deployed, and the link is available in the GitHub Pages section
+
+To run this project locally, you will need to clone the repositorey
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -206,6 +221,7 @@ In particular, you should provide all details of the differences between the dep
 - Separate git branch?
 
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
 
 
 ## Credits
