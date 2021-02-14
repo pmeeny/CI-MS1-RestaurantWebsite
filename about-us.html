@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="An award winning restauarant based in Limerick city">
-    <meta name="keywords" content="restaurant, menu, limerick, dinner">
-
-    <title>About Us</title>
-
-    <!-- Need to add the correct versions of JQuery, Bootstrap and FontAwesone-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!-- FontAwesone -->
-    <script src="https://kit.fontawesome.com/9e31b09f8c.js" crossorigin="anonymous"></script>
-
-    <!-- User style css --> 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
-
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="An award winning restauarant based in Limerick city">
+        <meta name="keywords" content="restaurant, menu, limerick, dinner">
+    
+        <title>Lilys Restaurant</title>
+    
+        <!-- Bootstrap css --> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+        <!-- User style css --> 
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    
 </head>
 
 <body>
@@ -189,7 +185,11 @@
                 <div class="col-sm-12 col-md-4">
                     <h5>Find us on google maps</h5>  
                     <!--The div element for the map -->
-                    <div id="map"></div>
+                    <div id="map">                
+                        <a href="https://goo.gl/maps/pGY9fwDQhTwTUA1d8" target="_blank" rel="noreferrer">
+                            <img alt="henry street google map" src="assets/images/google_map.jpg">
+                        </a>    
+                    </div>
                 </div>
             </div>
             <div class="copyright">
@@ -213,25 +213,12 @@
         </div>
     </footer>
 
-    <!-- Google maps -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWncKIaJ0_spPiZHLkwqIAhhgHqs-X0X4&callback=initMap&libraries=&v=weekly" defer></script>
+    <!-- JQuery and Bootstrap libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-    <!-- Google Map Javascript -->    
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            const restaurant = { lat: 52.660, lng: -8.631 };
-            const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 14,
-            center: restaurant,
-        });
-        // The marker, positioned at the restaurant
-            const marker = new google.maps.Marker({
-               position: restaurant,
-               map: map,
-             });
-           }
-    </script>
+    <!-- FontAwesone -->
+    <script src="https://kit.fontawesome.com/9e31b09f8c.js" crossorigin="anonymous"></script>
 
 </body>
 </html>   

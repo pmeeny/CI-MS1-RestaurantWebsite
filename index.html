@@ -202,7 +202,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <h5>Contact Us</h5>
-                    <p><i class="fa fa-map-marker"></i> 123 Fake Street, Limerick, Ireland</p>
+                    <p><i class="fa fa-map-marker"></i> 123 Henry Street, Limerick, Ireland</p>
                     <p><i class="fas fa-phone-alt"></i> 01-12345678</p>
                     <p><i class="fas fa-inbox"></i> hello@lilys.ie</p>
                 </div>
@@ -219,8 +219,12 @@
                 <div class="col-sm-12 col-md-4">
                     <h5>Find us on google maps</h5>  
                     <!--The div element for the map -->
-                    <div id="map"></div>
-                </div>
+                    <div id="map">                
+                        <a href="https://goo.gl/maps/pGY9fwDQhTwTUA1d8" target="_blank" rel="noreferrer">
+                            <img alt="henry street google map" src="assets/images/google_map.jpg">
+                        </a>    
+                    </div>
+                </div>    
             </div>
             <div class="copyright">
                 <hr class="ruler">
@@ -249,29 +253,5 @@
 
     <!-- FontAwesone -->
     <script src="https://kit.fontawesome.com/9e31b09f8c.js" crossorigin="anonymous"></script>
-
-    <!-- Lazy loader class from http://afarkas.github.io/lazysizes/ -->
-    <script src="assets/js/lazysizes.min.js" async=""></script>
-
-    <!-- Google maps -->
-    <script class="lazyload" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWncKIaJ0_spPiZHLkwqIAhhgHqs-X0X4&callback=initMap&libraries=&v=weekly" defer></script>
-
-     <!-- Google Map Javascript -->    
-    <script>
-        // Initialize and add the map
-        function initMap() {
-          const restaurant = { lat: 52.660, lng: -8.631 };
-          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 14,
-            center: restaurant,
-          });
-          // The marker, positioned at the restaurant
-          const marker = new google.maps.Marker({
-            position: restaurant,
-            map: map,
-          });
-        }
-    </script>
-
 </body>
 </html>   
