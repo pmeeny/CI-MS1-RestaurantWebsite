@@ -34,7 +34,7 @@
                 <!-- Menu Items -->       
                  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav"> 
-                        <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="active nav-item mr-2"><a class="nav-link"">Home</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="menu.html">Menu</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="about-us.html">About Us</a></li>
                         <li class="nav-item mr-2"><a class="nav-link" href="awards.html">Awards</a></li>
@@ -136,7 +136,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="jumbotron" id="hero-message">
-                    <h3>Welcome to Lily's Restaurant</h3>
+                    <h1 id="hero-message-text">Welcome to Lily's Restaurant</h1>
                     <p>The style of cuisine is in our restaurant is modern Irish and the we pride ourselves itself on using fresh produce in season; the majority of which is sourced locally. One of the main aims of Lily's is to give quality food and service at a reasonable price. We also offer an outdoor catering service where we deliver to your desired location.</p>
                     <button type="button" class="common_btn" data-toggle="modal" data-target="#bookingModal" aria-label="Book a table">Book a table</button>
                     <p><small>Note: Due to COVID-19 restrictions, we are limited in the number of tables we can cater for in one sitting</small></p>
@@ -152,7 +152,7 @@
                 <div class="single-image-and-text">
                     <img id="dinner-image" alt="restauarant meal on a plate" src="assets/images/dinner.jpg" class="lazyload">
                     <div class="image-text">
-                        <h4>Book a table</h4>
+                        <h2 class="image-heading">Book a table</h2>
                         <p class="inline-block">You can book a table online</p>
                         <div class="button-holder">
                             <a class="common_btn" data-toggle="modal" data-target="#bookingModal">Book a table</a>
@@ -164,7 +164,7 @@
                 <div class="single-image-and-text">
                     <img id="menu-image" alt="menu on a wall in a restauarant" src="assets/images/menu.jpg" class="lazyload">
                     <div class="image-text">
-                        <h4>Menus</h4>
+                        <h2 class="image-heading">Menus</h2>
                         <p class="inline-block">Check out our new menu</p>
                         <div class="button-holder">
                             <a class="common_btn" href="menu.html">Menu</a>
@@ -176,7 +176,7 @@
                 <div class="single-image-and-text">
                     <img id="kitchen-image" alt="chefs in a kitchen" src="assets/images/kitchen.jpg" class="lazyload">
                     <div class="image-text">
-                        <h4>About Us</h4>
+                        <h2 class="image-heading">About Us</h2>
                         <p class="inline-block">Meet our team</p>
                         <div class="button-holder">
                             <a class="common_btn" href="about-us.html">About Us</a>
@@ -188,7 +188,7 @@
                 <div class="single-image-and-text">
                     <img id="table-image" alt="restaurant table with multiple glasses" src="assets/images/table_with_glasses.jpg" class="lazyload">
                     <div class="image-text">
-                        <h4>Awards</h4>
+                        <h2 class="image-heading">Awards</h2>
                         <p class="inline-block">Check out our list of awards</p>
                         <div class="button-holder">
                                <a class="common_btn" href="awards.html">Awards</a>
@@ -204,23 +204,23 @@
         <div class="container" id="info-copyright-text">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-                    <h5>Contact Us</h5>
+                    <h3 class="footer-heading">Contact Us</h3>
                     <p><i class="fa fa-map-marker"></i> 123 Henry Street, Limerick, Ireland</p>
                     <p><i class="fas fa-phone-alt"></i> 01-12345678</p>
                     <p><i class="fas fa-inbox"></i> hello@lilys.ie</p>
                 </div>
                 <div class="col-sm-12 col-md-4" id="opening-hours">
-                    <h5>Opening Hours</h5>
-                    <h6>Monday 12:00 – 21:30</h6>
-                    <h6>Tuesday 12:00 – 21:30</h6>            
-                    <h6>Wednesday 12:00 – 21:30</h6>
-                    <h6>Thursday 12:00 – 21:30</h6>
-                    <h6>Friday 12:00 – 21:30</h6>  
-                    <h6>Saturday 12:00 – 21:30</h6>   
-                    <h6>Sunday 12:00 – 21:30</h6>    
+                    <h3 class="footer-heading">Opening Hours</h3>
+                    <p>Monday 12:00 – 21:30</p>
+                    <p>Tuesday 12:00 – 21:30</p>            
+                    <p>Wednesday 12:00 – 21:30</p>
+                    <p>Thursday 12:00 – 21:30</p>
+                    <p>Friday 12:00 – 21:30</p>  
+                    <p>Saturday 12:00 – 21:30</p>   
+                    <p>Sunday 12:00 – 21:30</p>    
                 </div>
                 <div class="col-sm-12 col-md-4">
-                    <h5>Find us on google maps</h5>  
+                    <h3 class="footer-heading">Find us on google maps</h3>  
                     <!--The div element for the map -->
                     <div id="map">                
                         <a href="https://goo.gl/maps/pGY9fwDQhTwTUA1d8" target="_blank" rel="noreferrer">
@@ -238,12 +238,12 @@
                     <div class="col-sm-12 col-md-4">
                     </div>
                     <div class="social-icons col-sm-12 col-md-4">
-                        <a href="http://www.facebook.com" target="_blank" rel="noreferrer"><i class="fa fa-facebook social-icon" aria-label="Go to our facebook page (opens in new tab)"></i></a>
-                        <a href="http://www.twitter.com" target="_blank" rel="noreferrer"><i class="fa fa-twitter social-icon" aria-label="Go to our twitter page (opens in new tab)"></i></a>
-                        <a href="http://www.snapchat.com" target="_blank" rel="noreferrer"><i class="fa fa-snapchat social-icon" aria-label="Go to our snapchat page (opens in new tab)"></i></a>
-                        <a href="http://www.instagram.com" target="_blank" rel="noreferrer"><i class="fa fa-instagram social-icon" aria-label="Go to our instagram page (opens in new tab)"></i></a>
-                        <a href="http://www.pinterest.com" target="_blank" rel="noreferrer"><i class="fa fa-pinterest social-icon" aria-label="Go to our pintrest page (opens in new tab)"></i></a>
-                        <a href="http://www.linkedin.com" target="_blank" rel="noreferrer"><i class="fa fa-linkedin social-icon" aria-label="Go to our linkedin page (opens in new tab)"></i></a>
+                        <a href="http://www.facebook.com" target="_blank" rel="noreferrer" aria-label="Go to our facebook page (opens in new tab)"><i class="fa fa-facebook social-icon"></i></a>
+                        <a href="http://www.twitter.com" target="_blank" rel="noreferrer" aria-label="Go to our twitter page (opens in new tab)"><i class="fa fa-twitter social-icon"></i></a>
+                        <a href="http://www.snapchat.com" target="_blank" rel="noreferrer" aria-label="Go to our snapchat page (opens in new tab)"><i class="fa fa-snapchat social-icon"></i></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Go to our instagram page (opens in new tab)"><i class="fa fa-instagram social-icon" ></i></a>
+                        <a href="http://www.pinterest.com" target="_blank" rel="noreferrer" aria-label="Go to our pintrest page (opens in new tab)"><i class="fa fa-pinterest social-icon"></i></a>
+                        <a href="http://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="Go to our linkedin page (opens in new tab)"><i class="fa fa-linkedin social-icon"></i></a>
                     </div>
                 </div>
             </div>

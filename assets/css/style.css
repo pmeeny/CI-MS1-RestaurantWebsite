@@ -1,11 +1,15 @@
 /* ----- Google Fonts import ----- */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@=500&display=swap');
 
 
 /* ----- Font ----- */
 * {
     font-family: 'Lato', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0f4c75;   
 }
 
 /* ----- Color palette ----- 
@@ -53,22 +57,18 @@ Black: #212529
 /* --- Four images and text Colors --- */
 .common_btn {
     display: inline-block;
-    font-weight: 400;
-    background: #af8346;
+    font-weight: 500;
+    background: #6B4E0A;
     color: #ffffff;
     text-align: center;
     vertical-align: middle;
     user-select: none;
     border: 1px solid transparent;
     padding: .375rem .75rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     border-radius: .25rem;
-}
-
-.common_btn:hover{
-    background: #af8346;
-    color: #ffffff;
+    
 }
 
 single-image-and-text {
@@ -76,27 +76,35 @@ single-image-and-text {
 }
 
 .image-text {
-    background-color: #0f4c75;
+    background: #0f4c75;
 }
 
 .image-text h4,p {
     color: #f9f7f7;
 }
 
+.image-heading {
+    color: #f9f7f7;
+}
+
 /* -- Hero Image Colors-- */
+#hero-message-text {
+    color: #ffffff;
+ }
+
 #hero-message {
    background-color: rgba(232, 232, 232, 0.3);
 }
-
-#hero-message  h3,p {
-    color: #ffffff;
- }
 
  #hero-message small {
     color: #ffffff;
 }
 
 /* --- Footer Colors --- */
+.footer-heading {
+    color: #ffffff;
+}
+
 #info-copyright-text p,h5,h6,i {
     color: #ffffff;
 }
@@ -107,7 +115,7 @@ single-image-and-text {
 
 .social-icon {
     color: #e8e8e8;
-    background: #af8346; 
+    background: #6B4E0A; 
 }
 
 .social-icon:hover{
@@ -139,12 +147,17 @@ single-image-and-text {
     background-color: #e8e8e8; 
 }
 
+.carousel-text {
+    color: #212529;
+    background-color: #ffffff;
+}
+
 /* --- About Us Colors --- */
 .about-us-and-team {
     background-color: #e8e8e8;
 }
 
-#about-us h3 {
+#about-us h1 h2 h3 {
     color: #0f4c75;
 }
 
@@ -322,6 +335,9 @@ single-image-and-text {
     margin-bottom: 20px; 
     border-radius: 4px;
 }
+#menu-and-carousel h1{
+    text-align: center;
+}    
 
 .menu-description {
     max-width: 400px;
