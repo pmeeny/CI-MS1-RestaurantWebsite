@@ -12,13 +12,9 @@ h1, h2, h3, h4, h5, h6 {
     color: #0f4c75;   
 }
 
-/* ----- Color palette ----- 
-Primary Colour: #0f4c75 (Dark blue/navy)
-Secondary Colour: #af8346 (Gold)
-Grey: #e8e8e8
-White: #ffffff
-Black: #212529
-*/
+.header2 {
+    font-size: 1.5rem;
+}
 
 /* --- Header Colors --- */
 .navbar-light .navbar-nav .nav-link {
@@ -67,8 +63,11 @@ Black: #212529
     padding: .375rem .75rem;
     font-size: 1.2rem;
     line-height: 1.5;
-    border-radius: .25rem;
-    
+    border-radius: .25rem;   
+}
+.common_btn:hover {
+    background: #6B4E0A;
+    color: #ffffff;
 }
 
 single-image-and-text {
