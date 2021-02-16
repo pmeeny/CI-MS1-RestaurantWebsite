@@ -117,6 +117,8 @@ There are five colours in the color palette with a
 - Black colour of #212529
 ![Responsive site example](/assets/images/color_palette.png)
 
+I feel the primary and secondary colours complement each other very well, and I choose those colours after testing a number of palettes while making sure the colour palette met accessibility standards.
+
 ### Typography
 The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the Lato font cannot be imported into the website correctly.
 
@@ -389,7 +391,6 @@ The website was developed using initally the Gitpod IDE, but then I switched to 
 The source code is stored in GIT in the repo: pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite(master branch) 
 
 The website was deployed on GitHub pages (https://pages.github.com/) using the following steps
-
 1. Log to GitHub (https://wwww.github.com)
 2. Click the Repositories tab and select the repository pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite 
 3. In the menu, select Settings
@@ -398,25 +399,33 @@ The website was deployed on GitHub pages (https://pages.github.com/) using the f
 6. The website is now deployed, and the link is displayed in the GitHub Pages section
 
 To run this project locally, you will need to clone the repository
-
+1. Login to GitHub (https://wwww.github.com)
+2. Select the repository pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite 
+3. Click the Code button and copy the HTTPS url, for example: https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git
+4. In your IDE, open a terminal and run the git clone commaned, for example 
+```git clone https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git```
+5. The repository will now be cloned in your workspace
 
 # Credits
-Image Carousel
-https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
+- For the image carousel scaling and margin sizing I used source code with some tweaks from: https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
-w3schools
+- For the social media icons, I used the code with some tweaks from the Code Institute, CV project, reference: https://github.com/Code-Institute-Org/ucd-resume
 
-Code institure project whiskey
-Code institute project cv
+- For the navigation bar, and hero image, I used the code with some tweaks from the Code Institute, Whiskey project, reference https://learn.codeinstitute.net/login?next=/ci_program/diplomainsoftwaredevelopment
 
-Lazy loading javascript
+- I used lazy loading java script code (https://github.com/aFarkas/lazysizes) to improve image loading and performance on the website
 
 # Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for the menu in menu.html was copied and tweaked from the [Square table restaurant](https://thesquaretable.ie/dinner-menu/)
+
+- I used the name Michelin Star, Bridgestone Award and McKenna Guide in the awards page 
+    - https://guide.michelin.com/ie/en/restaurants
+    - https://www.bridgestone.com/responsibilities/bga/
+    - https://www.guides.ie/
 
 # Media
 - Pixabay (https://pixabay.com/)
-    - The photos used in this site were obtained from Pixabay
+    - The photos used in this site were downloaded from Pixabay
 
 - Youtube (https://www.youtube.com/)
     - The video used in this site(awards.html) was obtained from Youtube
@@ -425,11 +434,6 @@ Lazy loading javascript
 - Canva (https://www.canva.com/)
     - Canva was used to design/create the website logo
  
-
 # Acknowledgements
-
-Jumbotron
-Whiskey project
-
-
-- I received inspiration for this project from X
+- I would like to thank my fiancee Mary for her help, constant support and ideas for the website.
+- I would like to thank my mentor Mo for his input, help and feedback.
