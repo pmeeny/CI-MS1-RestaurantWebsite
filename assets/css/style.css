@@ -208,6 +208,14 @@ single-image-and-text {
      text-decoration: underline;
 }
 
+#tableBookingModal {
+    font-size: 1.5em;
+}
+
+#book-table-text {
+    font-size: 1.0rem;
+}
+
 /* ----- Hero image and text ----- */
 #hero-image {
     height: 550px;

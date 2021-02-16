@@ -352,15 +352,22 @@ The websites pages were run against the following validators
 ### HTML Markup Validation Service (I used https://validator.w3.org/)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-index.html | ------------- | -------------
-menu.html | ------------- | -------------
-awards.html | ------------- | -------------
-about-us.html | ------------- | -------------
+index.html | Passed, No errors found | [Results](assets/images/testing/html-validation/index_validation.jpg)
+menu.html | Passed, No errors found | [Results](assets/images/testing/html-validation/menu_validation.jpg)
+awards.html | Passed, No errors found | [Results](assets/images/testing/html-validation/awards_validation.jpg)
+about-us.html | Passed, No errors found | [Results](assets/images/testing/html-validation/about-us_validation.jpg)
 
 ### CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-style.css | ------------- | -------------
+style.css | Passed, No errors found | [Results](assets/images/testing/css-validation/css_validation.jpg)
 
 ### Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)
 Page | Result | Test Detail/Screenshot
