@@ -42,9 +42,15 @@
 ## Primary Goal
 - The primary goal of the website from the site owners perspective is to increase bookings and visibility of the restaurant to potential customers
 - The primary goal of the website from a users perspective is to find out details about the restaurant, view the menu and book a table online.
-
+## Structure
+I have structured the website into four pages, each with clear and concise structure and information
+1. Index: The index(homepage): This is the first page the user encounters, it contains a header/footer and imagery/links to the other pages Menu, About Us, Awards as well as a button to book a table in the restaurant
+2. Menu: The menu page displays the restauarant menu and a picture carousel
+3. Awards: The awards page displays awards from 2017-2020 and a youtube video
+4. About Us: The about us page displays the three team members, picture and biography
 ## Scope
 ### User Stories
+There user stories for the website are described as follows: 
 - As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
 - As a user I want to view the restaurant logo
 - As a user I want to view the restaurant home, menu, about us, awards page link 
@@ -76,14 +82,9 @@
 - As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
 - As a user I want to view the restaurant michelin star awards youtube video
 
-## Structure
-
-
-
-
-
 ## Skeleton
 ### Wireframes
+- Wireframes for the wesbite were developed in Balsamiq and are linked below for Desktop, Tablet and Mobiel devices.
 - The wireframes are stored in GIT in the png format and are available at the links below(Desktop, Tablet and Mobile wireframes)
 - One overall pdf containing all wireframes is also stored in the GIT at the following location: - [All Wireframes in PDF format](assets/wireframes/Wireframes_allformats.pdf)
 <br>
@@ -106,8 +107,6 @@ Mobile
 - [About Us](assets/wireframes/mobile/about-us_mobile.png)
  
 
-
-
 ## Surface
 ### Color Palette
 There are five colours in the color palette with a 
@@ -118,13 +117,16 @@ There are five colours in the color palette with a
 - Black colour of #212529
 ![Responsive site example](/assets/images/color_palette.png)
 
-# Features
-The website has seven main features in four web pages(Index(Homepage), Menu, Awards, About Us)
+### Typography
+The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the Lato font cannot be imported into the website correctly.
 
+# Features
+The website has seven main features in the four web pages(Index(Homepage), Menu, Awards, About Us)
 ## Existing Features
 ### Feature 1: Navigation Bar 
 #### Description: 
 This is the navigation bar of the website, and is displayed on the four web pages Index(Homepage), Menu, Awards, About Us
+The navigation bar is a bootstrap component, and is a resonsive component. It becomes a burger menu on tablet and mobile devices.
 #### User Stories:
 - User Story 1.1: As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
 - User Story 1.2: As a user I want to view the restaurant logo
@@ -191,6 +193,9 @@ This page displays the restauarant awards for the years 2020, 2019, 2018, 2017 a
 The following features are outside the scope of this milestone project, but they would provide the user with a moe complete user expereience from the site, and would also drive users to the website.
 - An online table booking feature that has a server side implementation and database to store bookings
 - An online ordering feature, so that users can order onlinem, this would require a server side implementation, database and payment processing to process orders
+- Google maps integration - In an earlier version of the website I had used the Google Maps API to add a google map to the footer.
+The performance of the index page in the Google Developer lighthouse analysis tool was less than 70% on a mobile device | 
+
 
 # Technologies Used
 ## Languages 
@@ -252,6 +257,9 @@ The following features are outside the scope of this milestone project, but they
 - JS Fiddle (https://jsfiddle.net/)
     - Used for testing html and css concepts
 
+- Canva (https://www.canva.com/)
+    - Canva was used to design/create the website logo
+
 # Testing
 The testing approach was manual, and testing was completed on the following browsers and device types
 
@@ -260,7 +268,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 1 | Physical | iPad | Tablet |  Safari | 14.4 |
 2 | Physical | iPhone | Mobile |Safari | 14.4 |
 3 | Physical | One Plus 5 | Mobile | Chrome | 88.0 |
-4 | Physical | Windows Desktop| Desktop | IE Edge | |
+4 | Physical | Windows Desktop| Desktop | IE Edge | 88.0 |
 5 | Physical | Windows Desktop| Desktop | Mozilla Firefox | 85.0 |
 6 | Emulator | Galaxy S5 | Mobile | Chrome Emulator | 86.0 |
 7 | Emulator | iPad | Tablet | Chrome Emulator | 86.0 |
@@ -330,17 +338,18 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 
 ## Bugs found during the testing phase
 
-Bug Number | Comment |  Solution |
+Bug Number | Comment |  Solution/Design decision |
+------------ | ------------- | ------------- | 
+1 | When the website was deployed to GitPages some images were not displaying | The fix was to update the image src to remove the "/" from ```src="/assets/images/name ofimage...``` to ```src="assets/images/name ofimage...```
+2 | The table booking modal was not loading on phone and tablet devices | The fix was to make sure only the button div was under the div ```<div class="d-none d-lg-block d-xl-block">``` rather than the button and the modal
+3 | The carousel on its own container div looked out of place and too large | The fix was to put the menu and the carousel side by side in a row div
+4 | The book a table button looked out of place under the burger menu on tablet and mnobiel devices | The fix was to hide the button in the navigation bar on mobile and tablet devices using the following classes ```<div class="d-none d-lg-block d-xl-block">```
+5 | The wave accesbility analysis tool displayed an error of the contrast of the original gold (#AF83460 and white text on the buttons on the website |The fix was to use a different colour for the secondary colour #6B4E0A
 
-1. When deployed, images not appearing, solution was to update image location, and move the src attribute into the html
-2. The book a table button in the navr bar was appear on phone and tablet devices, solution was to hide it
-3. The carsoule was too big
-4. The modal was not appearing on phone and tablet devices . Issue was the modal was incorrectly under this div, and only the button should be under this div <div class="d-none d-lg-block d-xl-block">
-
-## Validators
+## Code Validators/ Website Analysis
 The websites pages were run against the following validators
 
-HTML Markup Validation Service
+### HTML Markup Validation Service (I used https://validator.w3.org/)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 index.html | ------------- | -------------
@@ -348,12 +357,12 @@ menu.html | ------------- | -------------
 awards.html | ------------- | -------------
 about-us.html | ------------- | -------------
 
-HTML Markup Validation Service
+### CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | ------------- | -------------
 
-Chrome Dev tools Lighthouse
+### Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 index.html (Desktop) | ------------- | -------------
@@ -383,12 +392,6 @@ The website was deployed on GitHub pages (https://pages.github.com/) using the f
 
 To run this project locally, you will need to clone the repository
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-
 
 # Credits
 Image Carousel
@@ -396,7 +399,10 @@ https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
 w3schools
 
-Gooe map code taken from 
+Code institure project whiskey
+Code institute project cv
+
+Lazy loading javascript
 
 # Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
@@ -408,6 +414,10 @@ Gooe map code taken from
 - Youtube (https://www.youtube.com/)
     - The video used in this site(awards.html) was obtained from Youtube
     - Url: https://www.youtube.com/embed/kFiSU6kLrTs
+
+- Canva (https://www.canva.com/)
+    - Canva was used to design/create the website logo
+ 
 
 # Acknowledgements
 
