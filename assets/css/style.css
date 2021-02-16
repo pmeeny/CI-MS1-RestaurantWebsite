@@ -216,6 +216,12 @@ single-image-and-text {
     font-size: 1.0rem;
 }
 
+.v-h {
+    position: absolute !important;
+    height: 1px; width: 1px; 
+    overflow: hidden;
+}
+
 /* ----- Hero image and text ----- */
 #hero-image {
     height: 550px;

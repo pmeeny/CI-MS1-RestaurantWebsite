@@ -56,33 +56,33 @@
                                 </button>
                                 </div>
                                 <div class="modal-body">
-                                    <form>
-                                        <h2 id="book-table-text">To book a table fill in the details below and click the Book a table button</h2>
+                                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                                        <h3 id="book-table-text">To book a table fill in the details below and click the <b>Book a table</b> button</h3>
                                         <div class="form-group row">
                                             <label for="name" class="col-5 col-form-label">Full Name</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="text" placeholder="Joe Bloggs" id="name" required>
+                                            <input class="form-control" name="full_name" type="text" placeholder="Joe Bloggs" id="name" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="phoneNumber" class="col-5 col-form-label">Phone Number</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="tel" placeholder="(01)-123-4567" id="phoneNumber" required>
+                                            <input class="form-control" name="phone_number" type="tel" placeholder="(01)-123-4567" id="phoneNumber" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                             <label for="emailAddress" class="col-5 col-form-label">Email Address</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="email" placeholder="joeBloggs@gmail.com" id="emailAddress" required>
+                                            <input class="form-control" type="email" name="email_address" placeholder="joeBloggs@gmail.com" id="emailAddress" required>
                                             </div>
                                         </div>
 
                                         <div class="form-group row">
                                                 <label for="noOfGuests" class="col-5 col-form-label">Number of guests</label>
                                                 <div class="col-7">  
-                                                    <select class="form-control" id="noOfGuests">  
+                                                    <select class="form-control" id="noOfGuests" name="no_of_guests">  
                                                     <option>1</option>
                                                     <option>2</option>
                                                     <option>3</option>
@@ -109,13 +109,13 @@
                                         <div class="form-group row">
                                             <label for="date" class="col-5 col-form-label">Date</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="date" id="date" required> 
+                                            <input class="form-control" type="date" id="date" name="booking_date" required> 
                                             </div>
                                         </div>
                                         <div class="form-group row">
                                             <label for="time" class="col-5 col-form-label">Time</label>
                                             <div class="col-7">
-                                            <input class="form-control" type="time" id="time" required>
+                                            <input class="form-control" type="time" id="time" name="booking_time" required>
                                             </div>
                                         </div>
                                         <div class="modal-footer">
