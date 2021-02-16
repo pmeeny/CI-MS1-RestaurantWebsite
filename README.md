@@ -1,30 +1,65 @@
 # Milestone Project 1 - Lilys Restaarant
 ## Table of Contents
-* [**Project overview**](#project-overview)
-* [**UX**](#ux-design)
-  - [**User Stories**](#user-stories)
-  - [**User Goals**](#user-goals)
-  - [**Design**](#design)
-  - [**Libraries**](#libraries)
-  - [**Colour Scheme**](#colour-scheme)
-  - [**Wireframes**](#wireframes)
+- [Project Overview](#project-overview)
+- [UX](#ux)
+  * [Primary Goal](#primary-goal)
+  * [Structure](#structure)
+  * [Scope](#scope)
+    + [User Stories](#user-stories)
+  * [Skeleton](#skeleton)
+    + [Wireframes](#wireframes)
+  * [Surface](#surface)
+    + [Color Palette](#color-palette)
+    + [Typography](#typography)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+    + [Feature 1: Navigation Bar](#feature-1--navigation-bar)
+      - [Description:](#description-)
+      - [User Stories:](#user-stories-)
+    + [Feature 2: Hero Image and Four images/text(Website body) (index.html)](#feature-2--hero-image-and-four-images-text-website-body---indexhtml-)
+      - [Description:](#description--1)
+      - [User Stories:](#user-stories--1)
+    + [Feature 3: Table Booking Modal](#feature-3--table-booking-modal)
+      - [Description:](#description--2)
+      - [User Stories:](#user-stories--2)
+    + [Feature 4: Website footer](#feature-4--website-footer)
+      - [Description:](#description--3)
+      - [User Stories:](#user-stories--3)
+    + [Feature 5: Menu page (menu.html)](#feature-5--menu-page--menuhtml-)
+      - [Description:](#description--4)
+      - [User Stories:](#user-stories--4)
+    + [Feature 6: About Us page (about-us.html)](#feature-6--about-us-page--about-ushtml-)
+      - [Description:](#description--5)
+      - [User Stories:](#user-stories--5)
+    + [Feature 7: Awards (awards.html)](#feature-7--awards--awardshtml-)
+      - [Description:](#description--6)
+      - [User Stories:](#user-stories--6)
+  * [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Libraries and other resources](#libraries-and-other-resources)
+- [Testing](#testing)
+  * [Test Results](#test-results)
+    + [Feature 1: Navigation Bar](#feature-1--navigation-bar-1)
+  * [Feature 2: Hero Image and Four images/text(Website body) (index.html)](#feature-2--hero-image-and-four-images-text-website-body---indexhtml--1)
+  * [Feature 3: Table Booking Modal](#feature-3--table-booking-modal-1)
+  * [Feature 4: Website footer](#feature-4--website-footer-1)
+  * [Feature 5: Menu page (menu.html)](#feature-5--menu-page--menuhtml--1)
+  * [Feature 6: About Us page](#feature-6--about-us-page)
+  * [Feature 7: Awards page](#feature-7--awards-page)
+  * [Bugs found during the testing phase](#bugs-found-during-the-testing-phase)
+  * [Code Validators/ Website Analysis](#code-validators--website-analysis)
+    + [HTML Markup Validation Service (I used https://validator.w3.org/)](#html-markup-validation-service--i-used-https---validatorw3org--)
+    + [CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)](#css-validation-service--i-used-https---jigsaww3org-css-validator--)
+    + [Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)](#chrome-dev-tools-lighthouse--i-used-lighthouse-https---developersgooglecom-web-tools-lighthouse-)
+    + [Wave Accessibility](#wave-accessibility)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Content](#content)
+- [Media](#media)
+- [Acknowledgements](#acknowledgements)
 
-* [**Features**](#features)
-  - [**Existing Features**](#existing-features)
-  - [**Features Left to Implement**](#features-left-to-implemement)
-
-* [**Technologies Used**](#technologies-used)
-
-* [**Testing**](#testing)
-  - [**Test Results**](#testresults)
-  - [**Validators**](#validators)
-
-* [**Deployment**](#deployment)
-
-* [**Credits**](#credits)
-  - [**Content**](#content)
-  - [**Media**](#media)
-  - [**Acknowledgements**](#acknowledgements)
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # Project Overview
 
@@ -33,7 +68,7 @@
 
 - The website is deployed using GIThub pages at the following url: [Lilys Restaurant](https://pmeeny.github.io/CodeInstitute-MilestoneProject1-RestaurantWebsite/)
 
-- The respository on Github that contains the website source code and assets is available at the folowing url: [Code Respository](https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite)
+- The respository on Github that contains the website source code and assets is available at the following url: [Code Respository](https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite)
 
 - The website was built with a responsive look and feel for desktop, tablet and mobile devices
 ![Responsive site example](/assets/images/responsive_devices.png)
@@ -43,10 +78,10 @@
 - The primary goal of the website from the site owners perspective is to increase bookings and visibility of the restaurant to potential customers
 - The primary goal of the website from a users perspective is to find out details about the restaurant, view the menu and book a table online.
 ## Structure
-I have structured the website into four pages, each with clear and concise structure and information
+I have structured the website into four pages, each with clear and concise structure and information. I use the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box"
 1. Index: The index(homepage): This is the first page the user encounters, it contains a header/footer and imagery/links to the other pages Menu, About Us, Awards as well as a button to book a table in the restaurant
-2. Menu: The menu page displays the restauarant menu and a picture carousel
-3. Awards: The awards page displays awards from 2017-2020 and a youtube video
+2. Menu: The menu page displays the restaurant menu and a picture carousel
+3. Awards: The awards page displays awards from 2017-2020 and a Youtube video
 4. About Us: The about us page displays the three team members, picture and biography
 ## Scope
 ### User Stories
@@ -106,7 +141,6 @@ Mobile
 - [Awards](assets/wireframes/mobile/awards_mobile.png)
 - [About Us](assets/wireframes/mobile/about-us_mobile.png)
  
-
 ## Surface
 ### Color Palette
 There are five colours in the color palette with a 
@@ -128,7 +162,7 @@ The website has seven main features in the four web pages(Index(Homepage), Menu,
 ### Feature 1: Navigation Bar 
 #### Description: 
 This is the navigation bar of the website, and is displayed on the four web pages Index(Homepage), Menu, Awards, About Us
-The navigation bar is a bootstrap component, and is a resonsive component. It becomes a burger menu on tablet and mobile devices.
+The navigation bar is a bootstrap component, and is a responsive component. It becomes a burger menu on tablet and mobile devices.
 #### User Stories:
 - User Story 1.1: As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
 - User Story 1.2: As a user I want to view the restaurant logo
@@ -148,7 +182,7 @@ This is a large hero image on the index/home page with a splash message and tabl
 
 ### Feature 3: Table Booking Modal
 #### Description: 
-This is a modal that is a form for the user to enter in the relevant information to book a table in the restaurant and is available in the navigation bar on the Index(Homepage), Menu, Awards, About Us pages
+This is a modal that is a form for the user to enter in the relevant information to book a table in the restaurant and is available in the navigation bar on the Index(Homepage), Menu, Awards, About Us pages. This modal is a bootstrap component.
 #### User Stories: 
 - User Story 3.1: As a user I want to enter my name when booking a table
 - User Story 3.2: As a user I want to enter my phone number when booking a table
@@ -171,7 +205,8 @@ This is the website footer displaying the restaurant contact information, map lo
 
 ### Feature 5: Menu page (menu.html)
 #### Description: 
-This page displays the menu and a selection of the dishes available in a picture carousel with a navigation bar as the header and a footer 
+This page displays the menu and a selection of the dishes available in a picture carousel with a navigation bar as the header and a footer.
+The carousel used is a Bootstrap component.
 #### User Stories: 
 - User Story 5.1: As a user I want to view the restaurant menu items and price (Starters and Main courses)
 - User Story 5.2: As a user I want to view the restaurant allergan advice (Staters and Main courses)
@@ -186,18 +221,17 @@ This page displays the three team members, picture and biography
 
 ### Feature 7: Awards (awards.html)
 #### Description: 
-This page displays the restauarant awards for the years 2020, 2019, 2018, 2017 and a michelin star awards youtube video with a navigation bar as the header and a footer
+This page displays the restaurant awards for the years 2020, 2019, 2018, 2017 in an accordion and a michelin star awards Youtube video with a navigation bar as the header and a footer. The accordion used is a bootstrap component.
 #### User Stories: 
 - User Story 7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
-- User Story 7.2: As a user I want to view the restaurant michelin star awards youtube video
+- User Story 7.2: As a user I want to view the restaurant michelin star awards Youtube video
  
 ##  Features Left to Implement
-The following features are outside the scope of this milestone project, but they would provide the user with a moe complete user expereience from the site, and would also drive users to the website.
+The following features are outside the scope of this milestone project, but they would provide the user with a moe complete user experience from the site, and would also drive users to the website.
 - An online table booking feature that has a server side implementation and database to store bookings
-- An online ordering feature, so that users can order onlinem, this would require a server side implementation, database and payment processing to process orders
+- An online ordering feature, so that users can order online, this would require a server side implementation, database and payment processing to process orders
 - Google maps integration - In an earlier version of the website I had used the Google Maps API to add a google map to the footer.
-The performance of the index page in the Google Developer lighthouse analysis tool was less than 70% on a mobile device | 
-
+The performance of the index page in the Google Developer lighthouse analysis tool was less than 70% on a mobile device so I decided to remove the api integration and to just use a map image linked to google maps. I also investigated the Google static maps api, but there is a charge to use this API, from what I can see, even for home projects. At the time I looked into lazy loading of images and files in a browser to improve mobile performance, hence why I am using the lazy loading javascript code (https://github.com/aFarkas/lazysizes).
 
 # Technologies Used
 ## Languages 
@@ -212,19 +246,19 @@ The performance of the index page in the Google Developer lighthouse analysis to
 
 ## Libraries and other resources
 - Bootstrap 4.6 (https://getbootstrap.com/docs/4.6)
-    - The project uses the bootsttrap library for some of the UI components in the website
+    - The project uses the bootstrap library for some of the UI components in the website
 
 - Git (https://git-scm.com/)
     - Git was used as the source control tool for this project
 
 - Gitpod (https://gitpod.io/)
-    - An online Integrated Development Enviroment
+    - An online Integrated Development Environment
 
 - Github (https://github.com/)
-    - Githib was used to store the project code in a repository
+    - Github was used to store the project code in a repository
 
 - Microsoft VSCode (https://code.visualstudio.com/)
-    - A locally installed Integrated Development Enviroment
+    - A locally installed Integrated Development Environment
 
 - Google Fonts (https://fonts.google.com/)
     - Google font Lato was used as the website font
@@ -236,7 +270,7 @@ The performance of the index page in the Google Developer lighthouse analysis to
     - Font awesome was used to provide the relevant fonts/icons for the website
 
 - JQuery (https://jquery.com)
-    - JQuery was required by boostrap for some of the the UI components, for example the carosoul
+    - JQuery was required by Bootstrap for some of the the UI components, for example the carosoul
 
 - TinyPNG (https://tinypng.com/)
     - TinyPNG was used to compress images
@@ -262,6 +296,9 @@ The performance of the index page in the Google Developer lighthouse analysis to
 - Canva (https://www.canva.com/)
     - Canva was used to design/create the website logo
 
+- GitHub Wiki TOC generator (https://ecotrust-canada.github.io/markdown-toc/)
+    - Used for generating a table of contents for thhis README
+    
 # Testing
 The testing approach was manual, and testing was completed on the following browsers and device types
 
@@ -278,6 +315,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 
 ## Test Results
 Below are the test results for testing the website requirements against a range of browsers and devices
+Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/EmulatorTestingResults.webm)
 
 ### Feature 1: Navigation Bar 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
@@ -354,10 +392,12 @@ The websites pages were run against the following validators
 ### HTML Markup Validation Service (I used https://validator.w3.org/)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-index.html | Passed, No errors found | [Results](assets/images/testing/html-validation/index_validation.jpg)
-menu.html | Passed, No errors found | [Results](assets/images/testing/html-validation/menu_validation.jpg)
-awards.html | Passed, No errors found | [Results](assets/images/testing/html-validation/awards_validation.jpg)
-about-us.html | Passed, No errors found | [Results](assets/images/testing/html-validation/about-us_validation.jpg)
+index.html | Passed, No errors found | [Results](assets/images/testing/html-validation/index_html_validation.jpg)
+menu.html | Passed, No errors found | [Results](assets/images/testing/html-validation/menu_html_validation.jpg)
+awards.html | Passed, No errors found | [Results](assets/images/testing/html-validation/awards_html_validation.jpg)
+about-us.html | Passed, No errors found | [Results](assets/images/testing/html-validation/about-us_html_validation.jpg)
+
+<br>
 
 ### CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)
 <p>
@@ -367,10 +407,11 @@ about-us.html | Passed, No errors found | [Results](assets/images/testing/html-v
             alt="Valid CSS!" />
     </a>
 </p>
+
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | Passed, No errors found | [Results](assets/images/testing/css-validation/css_validation.jpg)
-
+<br>
 ### Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
@@ -383,7 +424,17 @@ menu.html (Mobile) | ------------- | -------------
 awards.html (Mobile) | ------------- | -------------
 about-us.html (Mobile) | ------------- | -------------
 
+<br>
 
+### Wave Accessibility
+Page | Result | Test Detail/Screenshot
+------------ | ------------- | -------------
+index.html | 0 errors and 0 contrast errors| [Results](assets/images/testing/wave-validation/index_wave_validation.jpg)
+menu.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/menu_wave_validation.jpg)
+awards.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/awards_wave_validation.jpg)
+about-us.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/about-us_wave_validation.jpg)
+
+<br>
 
 # Deployment
 The website was developed using initally the Gitpod IDE, but then I switched to use the Visual Studio Code IDE due to the extensibility of the Visual Studio Code IDE and I plan on using this IDE for future projects. 
@@ -403,7 +454,9 @@ To run this project locally, you will need to clone the repository
 2. Select the repository pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite 
 3. Click the Code button and copy the HTTPS url, for example: https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git
 4. In your IDE, open a terminal and run the git clone commaned, for example 
+
 ```git clone https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git```
+
 5. The repository will now be cloned in your workspace
 
 # Credits
@@ -413,7 +466,15 @@ To run this project locally, you will need to clone the repository
 
 - For the navigation bar, and hero image, I used the code with some tweaks from the Code Institute, Whiskey project, reference https://learn.codeinstitute.net/login?next=/ci_program/diplomainsoftwaredevelopment
 
-- I used lazy loading java script code (https://github.com/aFarkas/lazysizes) to improve image loading and performance on the website
+- I used lazy loading javascript code (https://github.com/aFarkas/lazysizes) to improve image loading and performance on the website
+
+- I use a number of Bootstrap components: Navbar, Carousel, Modal, Collapse
+    - https://getbootstrap.com/docs/4.6/components/carousel/
+    - https://getbootstrap.com/docs/4.6/components/navbar/
+    - https://getbootstrap.com/docs/4.6/components/modal/
+    - https://getbootstrap.com/docs/4.6/components/collapse/
+
+- For layouts I use the Bootstrap Grid system: https://getbootstrap.com/docs/4.6/layout/grid/
 
 # Content
 - The text for the menu in menu.html was copied and tweaked from the [Square table restaurant](https://thesquaretable.ie/dinner-menu/)
@@ -422,6 +483,8 @@ To run this project locally, you will need to clone the repository
     - https://guide.michelin.com/ie/en/restaurants
     - https://www.bridgestone.com/responsibilities/bga/
     - https://www.guides.ie/
+
+<br>
 
 # Media
 - Pixabay (https://pixabay.com/)
@@ -434,6 +497,8 @@ To run this project locally, you will need to clone the repository
 - Canva (https://www.canva.com/)
     - Canva was used to design/create the website logo
  
+ <br>
+
 # Acknowledgements
-- I would like to thank my fiancee Mary for her help, constant support and ideas for the website.
+- I would like to thank my fiancee Mary for her help, constant support and ideas for the website, and also to my dog Lily for her company during development of the website.
 - I would like to thank my mentor Mo for his input, help and feedback.
