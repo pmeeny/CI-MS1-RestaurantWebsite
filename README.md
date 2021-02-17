@@ -1,4 +1,4 @@
-# Milestone Project 1 - Lilys Restaarant
+# Milestone Project 1 - Lilys Restaurant
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [UX](#ux)
@@ -13,45 +13,45 @@
     + [Typography](#typography)
 - [Features](#features)
   * [Existing Features](#existing-features)
-    + [Feature 1: Navigation Bar](#feature-1--navigation-bar)
-      - [Description:](#description-)
-      - [User Stories:](#user-stories-)
-    + [Feature 2: Hero Image and Four images/text(Website body) (index.html)](#feature-2--hero-image-and-four-images-text-website-body---indexhtml-)
-      - [Description:](#description--1)
-      - [User Stories:](#user-stories--1)
-    + [Feature 3: Table Booking Modal](#feature-3--table-booking-modal)
-      - [Description:](#description--2)
-      - [User Stories:](#user-stories--2)
-    + [Feature 4: Website footer](#feature-4--website-footer)
-      - [Description:](#description--3)
-      - [User Stories:](#user-stories--3)
-    + [Feature 5: Menu page (menu.html)](#feature-5--menu-page--menuhtml-)
-      - [Description:](#description--4)
-      - [User Stories:](#user-stories--4)
-    + [Feature 6: About Us page (about-us.html)](#feature-6--about-us-page--about-ushtml-)
-      - [Description:](#description--5)
-      - [User Stories:](#user-stories--5)
-    + [Feature 7: Awards (awards.html)](#feature-7--awards--awardshtml-)
-      - [Description:](#description--6)
-      - [User Stories:](#user-stories--6)
+    + [Feature 1 Navigation Bar](#feature-1-navigation-bar)
+      - [Description](#description)
+      - [User Stories](#user-stories-1)
+    + [Feature 2 Hero Image and Four images](#feature-2-hero-image-and-four-images)
+      - [Description](#description-1)
+      - [User Stories](#user-stories-2)
+    + [Feature 3 Table Booking Modal](#feature-3-table-booking-modal)
+      - [Description](#description-2)
+      - [User Stories](#user-stories-3)
+    + [Feature 4 Website footer](#feature-4-website-footer)
+      - [Description](#description-3)
+      - [User Stories](#user-stories-4)
+    + [Feature 5 Menu page](#feature-5-menu-page)
+      - [Description](#description-4)
+      - [User Stories](#user-stories-5)
+    + [Feature 6 About Us page](#feature-6-about-us-page)
+      - [Description](#description-5)
+      - [User Stories](#user-stories-6)
+    + [Feature 7 Awards](#feature-7-awards)
+      - [Description](#description-6)
+      - [User Stories](#user-stories-7)
   * [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
   * [Libraries and other resources](#libraries-and-other-resources)
 - [Testing](#testing)
   * [Test Results](#test-results)
-    + [Feature 1: Navigation Bar](#feature-1--navigation-bar-1)
-  * [Feature 2: Hero Image and Four images/text(Website body) (index.html)](#feature-2--hero-image-and-four-images-text-website-body---indexhtml--1)
-  * [Feature 3: Table Booking Modal](#feature-3--table-booking-modal-1)
-  * [Feature 4: Website footer](#feature-4--website-footer-1)
-  * [Feature 5: Menu page (menu.html)](#feature-5--menu-page--menuhtml--1)
-  * [Feature 6: About Us page](#feature-6--about-us-page)
-  * [Feature 7: Awards page](#feature-7--awards-page)
+    + [Feature 1 Navigation Bar](#feature-1-navigation-bar-1)
+    + [Feature 2 Hero Image and Four images](#feature-2-hero-image-and-four-images-1)
+    + [Feature 3 Table Booking Modal](#feature-3-table-booking-modal-1)
+    + [Feature 4 Website footer](#feature-4-website-footer-1)
+    + [Feature 5 Menu page](#feature-5-menu-page-1)
+    + [Feature 6 About Us page](#feature-6-about-us-page-1)
+    + [Feature 7 Awards page](#feature-7-awards-page)
   * [Bugs found during the testing phase](#bugs-found-during-the-testing-phase)
-  * [Code Validators/ Website Analysis](#code-validators--website-analysis)
-    + [HTML Markup Validation Service (I used https://validator.w3.org/)](#html-markup-validation-service--i-used-https---validatorw3org--)
-    + [CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)](#css-validation-service--i-used-https---jigsaww3org-css-validator--)
-    + [Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)](#chrome-dev-tools-lighthouse--i-used-lighthouse-https---developersgooglecom-web-tools-lighthouse-)
+  * [Code Validators and Website Analysis](#code-validators-and-website-analysis)
+    + [HTML Markup Validation Service](#html-markup-validation-service)
+    + [CSS Validation Service](#css-validation-service)
+    + [Chrome Dev tools Lighthouse](#chrome-dev-tools-lighthouse)
     + [Wave Accessibility](#wave-accessibility)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -60,6 +60,7 @@
 - [Acknowledgements](#acknowledgements)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # Project Overview
 
@@ -161,20 +162,20 @@ The Lato font is the main font used throughout the whole website with Sans Serif
 # Features
 The website has seven main features in the four web pages(Index(Homepage), Menu, Awards, About Us)
 ## Existing Features
-### Feature 1: Navigation Bar 
-#### Description: 
+### Feature 1 Navigation Bar 
+#### Description
 This is the navigation bar of the website, and is displayed on the four web pages Index(Homepage), Menu, Awards, About Us
 The navigation bar is a bootstrap component, and is a responsive component. It becomes a burger menu on tablet and mobile devices.
-#### User Stories:
+#### User Stories
 - User Story 1.1: As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
 - User Story 1.2: As a user I want to view the restaurant logo
 - User Story 1.3: As a user I want to view the restaurant home, menu, about us, awards page link 
 - User Story 1.4: As a user I want to book a table in the restaurant
 
-### Feature 2: Hero Image and Four images/text(Website body) (index.html)
-#### Description: 
+### Feature 2 Hero Image and Four images
+#### Description
 This is a large hero image on the index/home page with a splash message and table button button and four images with corresponding text/buttons, with a navigation bar as the header and a footer
-#### User Stories: 
+#### User Stories
 - User Story 2.1: As a user I want to view the restaurant home page hero image
 - User Story 2.2: As a user I want to book a table (Hero Image button)
 - User Story 2.3: As a user I want to book a table (Website body button)
@@ -182,10 +183,10 @@ This is a large hero image on the index/home page with a splash message and tabl
 - User Story 2.5: As a user I want to view the about us information (Website body button)
 - User Story 2.6: As a user I want to view the restaurant awards(Website body button)
 
-### Feature 3: Table Booking Modal
-#### Description: 
+### Feature 3 Table Booking Modal
+#### Description
 This is a modal that is a form for the user to enter in the relevant information to book a table in the restaurant and is available in the navigation bar on the Index(Homepage), Menu, Awards, About Us pages. This modal is a bootstrap component.
-#### User Stories: 
+#### User Stories
 - User Story 3.1: As a user I want to enter my name when booking a table
 - User Story 3.2: As a user I want to enter my phone number when booking a table
 - User Story 3.3: As a user I want to enter my email address when booking a table
@@ -195,36 +196,36 @@ This is a modal that is a form for the user to enter in the relevant information
 - User Story 3.7: As a user I want to submit a booking
 - User Story 3.8: As a user I want to close the table booking modal
 
-### Feature 4: Website footer
-#### Description: 
+### Feature 4 Website footer
+#### Description
 This is the website footer displaying the restaurant contact information, map location and social media page links
-#### User Stories: 
+#### User Stories
 - User Story 4.1: As a user I want to view the restaurant opening times
 - User Story 4.2: As a user I want to view the restaurant phone number
 - User Story 4.3: As a user I want to view the restaurant email address
 - User Story 4.4: As a user I want to view the restaurant location on a map
 - User Story 4.5: As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
 
-### Feature 5: Menu page (menu.html)
-#### Description: 
-This page displays the menu and a selection of the dishes available in a picture carousel with a navigation bar as the header and a footer.
+### Feature 5 Menu page
+#### Description
+This page displays the menu(menu.html) and a selection of the dishes available in a picture carousel with a navigation bar as the header and a footer.
 The carousel used is a Bootstrap component.
-#### User Stories: 
+#### User Stories
 - User Story 5.1: As a user I want to view the restaurant menu items and price (Starters and Main courses)
 - User Story 5.2: As a user I want to view the restaurant allergan advice (Staters and Main courses)
 - User Story 5.3: As a user I want to view a selection of the dishes available in a picture carousel
 
-### Feature 6: About Us page (about-us.html)
-#### Description: 
-This page displays the three team members, picture and biography
-#### User Stories: 
+### Feature 6 About Us page
+#### Description
+This page(about-us.html) displays the three team members, picture and biography
+#### User Stories
 - User Story 6.1: As a user I want to view the restaurant about us section
 - User Story 6.2: As a user I want to view the restaurant team members pictures and biography
 
-### Feature 7: Awards (awards.html)
-#### Description: 
-This page displays the restaurant awards for the years 2020, 2019, 2018, 2017 in an accordion and a michelin star awards Youtube video with a navigation bar as the header and a footer. The accordion used is a bootstrap component.
-#### User Stories: 
+### Feature 7 Awards
+#### Description
+This page(awards.html) displays the restaurant awards for the years 2020, 2019, 2018, 2017 in an accordion and a michelin star awards Youtube video with a navigation bar as the header and a footer. The accordion used is a bootstrap component.
+#### User Stories
 - User Story 7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
 - User Story 7.2: As a user I want to view the restaurant michelin star awards Youtube video
  
@@ -320,7 +321,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 
 ## Test Results
 Below are the test results for testing the website requirements against a range of browsers and devices
-Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/EmulatorTestingResults.webm)
+Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/emulatortestingresults.webm)
 
 Below are a number of screenshots of the website live on an emulator (Desktop, Tablet, Mobile devices)
 Index (Desktop, Tablet, Mobile)
@@ -334,16 +335,16 @@ Awards (Desktop, Tablet, Mobile)
 
 About Us (Desktop, Tablet, Mobile)
 - [About Us](assets/images/testing/full_page_screenshots/about-us)
-### Feature 1: Navigation Bar 
+### Feature 1 Navigation Bar 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 1.1: As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages | 1. Open the Index, Menu, About Us and Awards pages | The navigation is displayed, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 1.2: As a user I want to view the restaurant logo | 1. Open the Index, Menu, About Us and Awards pages | The log is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 1.3: As a user I want to view the restaurant home, menu, about us, awards page links  | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on each page link in the navigation bar | The navigation is displayed and the links bring the user to the relevant page, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-1.4: As a user I want to book a table in the restaurant | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on the "Book a Table" button | The navigation is displayed, on a small tablet/mobile device, the button is hidden | Passed | N/A | N/A | Passed | Passed | N/A| Passed | N/A |
+1.4: As a user I want to book a table in the restaurant | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on the "Book a Table" button | The navigation is displayed Note: on a small tablet/mobile device, the table booking button is hidden | Passed | N/A | N/A | Passed | Passed | N/A| Passed | N/A |
 
 
-## Feature 2: Hero Image and Four images/text(Website body) (index.html)
+### Feature 2 Hero Image and Four images 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 2.1: As a user I want to view the restaurant home page hero image | 1. Open the Index page | The hero image and text is displayed under the navigation bar | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
@@ -353,7 +354,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 2.5: As a user I want to view the about us information (Website body button) | 1. Open the Index page <br> 2. On the website body click the about us button  | The about us page will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 2.6: As a user I want to view the restaurant awards(Website body button) | 1. Open the Index page <br> 2. On the website body click the awards button  | The awards page will be displayed| Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
-## Feature 3: Table Booking Modal
+### Feature 3 Table Booking Modal
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 3.1: As a user I want to enter my full name when booking a table | 1. Click on the book a table button <br> 2. Fill in a full name in the name field | The full name is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
@@ -364,7 +365,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 3.6: As a user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory. <br> The email address must include an ampersand. The data is then sent succesfully to the CodeInstitute POST request  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.8: As a user I want to close the table booking modal | 1. Click on the book a table button <br> 2. Close the modal | The modal is closed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-## Feature 4: Website footer
+### Feature 4 Website footer
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 4.1: As a user I want to view the restaurant opening times | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant opening times are displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
@@ -373,25 +374,26 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 4.4: As a user I want to view the restaurant location on a map | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant google map is displayed, and clicking on it opens google maps in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 4.5: As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages | 1. Open the Index, Menu, Awards, About Us pages and view the footer <br> 2. Click on each of the social icon buttons x 6(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin)| The restaurants social media page(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin) opens up in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
-## Feature 5: Menu page (menu.html)
+### Feature 5 Menu page
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 5.1: As a user I want to view the restaurant menu items and price (Starters and Main courses) | 1. Open the Menu page and view the menu | The menu is displayed, starter, main course items and prices | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 5.2: As a user I want to view the restaurant allergan advice (Staters and Main courses) | 1. Open the Menu page and view the allergan advice | The allergan advice for each item is displayed and explained | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 5.3: As a user I want to view a selection of the dishes available in a picture carousel | 1. Open the Menu page and click on the carousel items | A selection of the dishes available is displayed in a picture carousel | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
-## Feature 6: About Us page
+### Feature 6 About Us page
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 6.1: As a user I want to view the restaurant about us section | 1. Open the About Us page  | The about us section is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 7.1: As a user I want to view the restaurant team member pictures and biography | 1. Open the About Us page | The team members pictures and biography is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
-## Feature 7: Awards page
+### Feature 7 Awards page
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017 | 1. Open the Awards page and click each award year(2020, 2019, 2018, 2017) in the dropdown | The awards are displayed for each award year(2020, 2019, 2018, 2017) | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 7.2: As a user I want to view the restaurant michelin star awards Youtube video | 1. Open the Awards page and open the Youtube video on the page | The Youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
+<br>
 
 ## Bugs found during the testing phase
 
@@ -400,13 +402,17 @@ Bug Number | Comment |  Solution/Design decision |
 1 | When the website was deployed to GitPages some images were not displaying | The fix was to update the image src to remove the "/" from ```src="/assets/images/name ofimage...``` to ```src="assets/images/name ofimage...```
 2 | The table booking modal was not loading on phone and tablet devices | The fix was to make sure only the button div was under the div ```<div class="d-none d-lg-block d-xl-block">``` rather than the button and the modal
 3 | The carousel on its own container div looked out of place and too large | The fix was to put the menu and the carousel side by side in a row div
-4 | The book a table button looked out of place under the burger menu on tablet and mnobiel devices | The fix was to hide the button in the navigation bar on mobile and tablet devices using the following classes ```<div class="d-none d-lg-block d-xl-block">```
-5 | The wave accesbility analysis tool displayed an error of the contrast of the original gold (#AF83460 and white text on the buttons on the website |The fix was to use a different colour for the secondary colour #6B4E0A
+4 | The book a table button looked out of place under the burger menu on tablet and mobile devices | The fix was to hide the button in the navigation bar on mobile and tablet devices using the following classes ```<div class="d-none d-lg-block d-xl-block">```
+5 | The wave accessibility analysis tool displayed an error of the contrast of the original gold (#AF83460 and white text on the buttons on the website |The fix was to use a different colour for the secondary colour #6B4E0A
 
-## Code Validators/ Website Analysis
+<br>
+
+## Code Validators and Website Analysis
 The websites pages were run against the following validators
 
-### HTML Markup Validation Service (I used https://validator.w3.org/)
+### HTML Markup Validation Service
+I used https://validator.w3.org/
+
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 index.html | Passed, No errors found | [Results](assets/images/testing/html-validation/index_html_validation.jpg)
@@ -416,7 +422,8 @@ about-us.html | Passed, No errors found | [Results](assets/images/testing/html-v
 
 <br>
 
-### CSS Validation Service (I used https://jigsaw.w3.org/css-validator/)
+### CSS Validation Service
+I used https://jigsaw.w3.org/css-validator/
 <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -429,17 +436,20 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | Passed, No errors found | [Results](assets/images/testing/css-validation/css_validation.jpg)
 <br>
-### Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)
+### Chrome Dev tools Lighthouse 
+(I used Lighthouse https://developers.google.com/web/tools/
+lighthouse)
+
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-index.html (Desktop) | Performance: 98, Accessibility: 97, Best practices: 93, SEO: 90  | assets/images/testing/google-lighthouse/index_desktop_lighthouse.png
-menu.html (Desktop) | Performance: 99, Accessibility: 98, Best practices: 100, SEO: 90  | assets/images/testing/google-lighthouse/menu_desktop_lighthouse.png
-awards.html (Desktop) | Performance: 97, Accessibility: 97, Best practices: 93, SEO: 90  | assets/images/testing/google-lighthouse/about-us_desktop_lighthouse.png
-about-us.html (Desktop) | Performance: 100, Accessibility: 97, Best practices: 100, SEO: 90  | assets/images/testing/google-lighthouse/awards_desktop_lighthouse.png
-index.html (Mobile) | Performance: 90, Accessibility: 100, Best practices: 93, SEO: 92  | assets/images/testing/google-lighthouse/index_mobile_lighthouse.png
-menu.html (Mobile) | Performance: 98, Accessibility: 100, Best practices: 100, SEO: 92  | assets/images/testing/google-lighthouse/menu_mobile_lighthouse.png
-awards.html (Mobile) | Performance: 93, Accessibility: 100, Best practices: 93, SEO: 92  | assets/images/testing/google-lighthouse/about-us_mobile_lighthouse.png
-about-us.html (Mobile) | Performance: 96, Accessibility: 100, Best practices: 100, SEO: 92 | assets/images/testing/google-lighthouse/awards_mobile_lighthouse.png
+index.html (Desktop) | Performance: 98, Accessibility: 97, Best practices: 93, SEO: 90  | [Results](assets/images/testing/google-lighthouse/index_desktop_lighthouse.png)
+menu.html (Desktop) | Performance: 99, Accessibility: 98, Best practices: 100, SEO: 90  | [Results](assets/images/testing/google-lighthouse/menu_desktop_lighthouse.png)
+awards.html (Desktop) | Performance: 97, Accessibility: 97, Best practices: 93, SEO: 90  | [Results](assets/images/testing/google-lighthouse/about-us_desktop_lighthouse.png)
+about-us.html (Desktop) | Performance: 100, Accessibility: 97, Best practices: 100, SEO: 90  | [Results](assets/images/testing/google-lighthouse/awards_desktop_lighthouse.png)
+index.html (Mobile) | Performance: 90, Accessibility: 100, Best practices: 93, SEO: 92  | [Results](assets/images/testing/google-lighthouse/index_mobile_lighthouse.png)
+menu.html (Mobile) | Performance: 98, Accessibility: 100, Best practices: 100, SEO: 92  | [Results](assets/images/testing/google-lighthouse/menu_mobile_lighthouse.png)
+awards.html (Mobile) | Performance: 93, Accessibility: 100, Best practices: 93, SEO: 92  |[Results](assets/images/testing/google-lighthouse/about-us_mobile_lighthouse.png)
+about-us.html (Mobile) | Performance: 96, Accessibility: 100, Best practices: 100, SEO: 92 | [Results](assets/images/testing/google-lighthouse/awards_mobile_lighthouse.png)
 
 <br>
 
