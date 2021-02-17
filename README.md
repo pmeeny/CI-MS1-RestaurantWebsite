@@ -262,6 +262,7 @@ The performance of the index page in the Google Developer lighthouse analysis to
 
 - Microsoft VSCode (https://code.visualstudio.com/)
     - A locally installed Integrated Development Environment
+    - I also installed a number of extensions: Code Spell Checker, Beautify, Auto Rename Tag, Git, GitLens
 
 - Google Fonts (https://fonts.google.com/)
     - Google font Lato was used as the website font
@@ -273,7 +274,7 @@ The performance of the index page in the Google Developer lighthouse analysis to
     - Font awesome was used to provide the relevant fonts/icons for the website
 
 - JQuery (https://jquery.com)
-    - JQuery was required by Bootstrap for some of the the UI components, for example the carosoul
+    - JQuery was required by Bootstrap for some of the the UI components, for example the carousel
 
 - TinyPNG (https://tinypng.com/)
     - TinyPNG was used to compress images
@@ -363,7 +364,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 3.4: As a user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the number of guests field| The number of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.5: As a user I want to enter the preferred booking date when booking a table | 1. Click on the book a table button <br> 2. Select the preferred date in the date field | The date is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.6: As a user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory. <br> The email address must include an ampersand. The data is then sent succesfully to the CodeInstitute POST request  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory. <br> The email address must include an ampersand. The data is then sent successfully to the CodeInstitute POST request  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.8: As a user I want to close the table booking modal | 1. Click on the book a table button <br> 2. Close the modal | The modal is closed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 ### Feature 4 Website footer
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
@@ -456,10 +457,10 @@ about-us.html (Mobile) | Performance: 96, Accessibility: 100, Best practices: 10
 ### Wave Accessibility
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-index.html | 0 errors and 0 contrast errors| [Results](assets/images/testing/wave-validation/index_wave_validation.jpg)
-menu.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/menu_wave_validation.jpg)
-awards.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/awards_wave_validation.jpg)
-about-us.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave-validation/about-us_wave_validation.jpg)
+index.html | 0 errors and 0 contrast errors| [Results](assets/images/testing/wave_validation/index_wave_validation.jpg)
+menu.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave_validation/menu_wave_validation.jpg)
+awards.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave_validation/awards_wave_validation.jpg)
+about-us.html | 0 errors and 0 contrast errors | [Results](assets/images/testing/wave_validation/about-us_wave_validation.jpg)
 
 <br>
 
