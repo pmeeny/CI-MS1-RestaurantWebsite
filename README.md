@@ -68,7 +68,7 @@
 
 - The website is deployed using GIThub pages at the following url: [Lilys Restaurant](https://pmeeny.github.io/CodeInstitute-MilestoneProject1-RestaurantWebsite/)
 
-- The respository on Github that contains the website source code and assets is available at the following url: [Code Respository](https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite)
+- The repository on Github that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite)
 
 - The website was built with a responsive look and feel for desktop, tablet and mobile devices
 ![Responsive site example](/assets/images/responsive_devices.png)
@@ -78,7 +78,8 @@
 - The primary goal of the website from the site owners perspective is to increase bookings and visibility of the restaurant to potential customers
 - The primary goal of the website from a users perspective is to find out details about the restaurant, view the menu and book a table online.
 ## Structure
-I have structured the website into four pages, each with clear and concise structure and information. I use the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box"
+I have structured the website into four pages, each with clear, concise structure, information and purpose. I use the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box"
+
 1. Index: The index(homepage): This is the first page the user encounters, it contains a header/footer and imagery/links to the other pages Menu, About Us, Awards as well as a button to book a table in the restaurant
 2. Menu: The menu page displays the restaurant menu and a picture carousel
 3. Awards: The awards page displays awards from 2017-2020 and a Youtube video
@@ -115,14 +116,15 @@ There user stories for the website are described as follows:
 - As a user I want to view the restaurant about us section
 - As a user I want to view the restaurant team members pictures and biography
 - As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
-- As a user I want to view the restaurant michelin star awards youtube video
+- As a user I want to view the restaurant michelin star awards Youtube video
 
 ## Skeleton
 ### Wireframes
-- Wireframes for the wesbite were developed in Balsamiq and are linked below for Desktop, Tablet and Mobiel devices.
+- Wireframes for the website were developed in Balsamiq and are linked below for Desktop, Tablet and Mobile devices.
 - The wireframes are stored in GIT in the png format and are available at the links below(Desktop, Tablet and Mobile wireframes)
 - One overall pdf containing all wireframes is also stored in the GIT at the following location: - [All Wireframes in PDF format](assets/wireframes/Wireframes_allformats.pdf)
 <br>
+
 Desktop 
 - [Index](assets/wireframes/desktop/index_desktop.png)
 - [Menu](assets/wireframes/desktop/menu_desktop.png)
@@ -151,7 +153,7 @@ There are five colours in the color palette with a
 - Black colour of #212529
 ![Responsive site example](/assets/images/color_palette.png)
 
-I feel the primary and secondary colours complement each other very well, and I choose those colours after testing a number of palettes while making sure the colour palette met accessibility standards.
+- I feel the primary and secondary colours complement each other very well, and I choose those colours after testing a number of palettes while making sure the colour palette met accessibility standards.
 
 ### Typography
 The Lato font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the Lato font cannot be imported into the website correctly.
@@ -285,7 +287,7 @@ The performance of the index page in the Google Developer lighthouse analysis to
     - For troubleshooting and debugging of the project code
 
 - Chrome Lighthouse (https://developers.google.com/web/tools/lighthouse)
-    - For performance, accesibility, progressive web apps, SEO analysis of the project code
+    - For performance, accessibility, progressive web apps, SEO analysis of the project code
 
 - Responsive Design (http://ami.responsivedesign.is/)
     - Website for generating the responsive image in this README
@@ -297,8 +299,11 @@ The performance of the index page in the Google Developer lighthouse analysis to
     - Canva was used to design/create the website logo
 
 - GitHub Wiki TOC generator (https://ecotrust-canada.github.io/markdown-toc/)
-    - Used for generating a table of contents for thhis README
+    - Used for generating a table of contents for this README
     
+- Adobe Colour (https://color.adobe.com/create/color-wheel)
+  - To generate the colour palette image used in this README
+
 # Testing
 The testing approach was manual, and testing was completed on the following browsers and device types
 
@@ -317,6 +322,18 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 Below are the test results for testing the website requirements against a range of browsers and devices
 Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/EmulatorTestingResults.webm)
 
+Below are a number of screenshots of the website live on an emulator (Desktop, Tablet, Mobile devices)
+Index (Desktop, Tablet, Mobile)
+- [Index](assets/images/testing/full_page_screenshots/index)
+
+Menu (Desktop, Tablet, Mobile)
+- [Menu](assets/images/testing/full_page_screenshots/menu)
+
+Awards (Desktop, Tablet, Mobile)
+- [Awards](assets/images/testing/full_page_screenshots/awards)
+
+About Us (Desktop, Tablet, Mobile)
+- [About Us](assets/images/testing/full_page_screenshots/about-us)
 ### Feature 1: Navigation Bar 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
@@ -342,7 +359,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 3.1: As a user I want to enter my full name when booking a table | 1. Click on the book a table button <br> 2. Fill in a full name in the name field | The full name is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.2: As a user I want to enter my phone number when booking a table | 1. Click on the book a table button <br> 2. Fill in a phone number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.3: As a user I want to enter my email address when booking a table | 1. Click on the book a table button <br> 2. Fill in an email address number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.4: As a user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the numbr of guests field| The numbr of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+3.4: As a user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the number of guests field| The number of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.5: As a user I want to enter the preferred booking date when booking a table | 1. Click on the book a table button <br> 2. Select the preferred date in the date field | The date is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.6: As a user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory. <br> The email address must include an ampersand. The data is then sent succesfully to the CodeInstitute POST request  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
@@ -353,7 +370,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 4.1: As a user I want to view the restaurant opening times | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant opening times are displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 4.2: As a user I want to view the restaurant phone number | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant phone number is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 4.3: As a user I want to view the restaurant email address | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant email address is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-4.4: As a user I want to view the restaurant location on a map | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restauarant google map is displayed, and clicking on it opens google maps in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+4.4: As a user I want to view the restaurant location on a map | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant google map is displayed, and clicking on it opens google maps in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 4.5: As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages | 1. Open the Index, Menu, Awards, About Us pages and view the footer <br> 2. Click on each of the social icon buttons x 6(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin)| The restaurants social media page(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin) opens up in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
 ## Feature 5: Menu page (menu.html)
@@ -367,13 +384,13 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 6.1: As a user I want to view the restaurant about us section | 1. Open the About Us page  | The about us section is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-7.1: As a user I want to view the restaurant team member pictures and biography | 1. Open the About Us page | The team members pictures and biography is diplsayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+7.1: As a user I want to view the restaurant team member pictures and biography | 1. Open the About Us page | The team members pictures and biography is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
 ## Feature 7: Awards page
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
 7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017 | 1. Open the Awards page and click each award year(2020, 2019, 2018, 2017) in the dropdown | The awards are displayed for each award year(2020, 2019, 2018, 2017) | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-7.2: As a user I want to view the restaurant michelin star awards youtube video | 1. Open the Awards page and open the youtube video on the page | The youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+7.2: As a user I want to view the restaurant michelin star awards Youtube video | 1. Open the Awards page and open the Youtube video on the page | The Youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 
 
 ## Bugs found during the testing phase
@@ -415,14 +432,14 @@ style.css | Passed, No errors found | [Results](assets/images/testing/css-valida
 ### Chrome Dev tools Lighthouse (I used Lighthouse https://developers.google.com/web/tools/lighthouse)
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
-index.html (Desktop) | ------------- | -------------
-menu.html (Desktop) | ------------- | -------------
-awards.html (Desktop) | ------------- | -------------
-about-us.html (Desktop) | ------------- | -------------
-index.html (Mobile) | ------------- | -------------
-menu.html (Mobile) | ------------- | -------------
-awards.html (Mobile) | ------------- | -------------
-about-us.html (Mobile) | ------------- | -------------
+index.html (Desktop) | Performance: 98, Accessibility: 97, Best practices: 93, SEO: 90  | assets/images/testing/google-lighthouse/index_desktop_lighthouse.png
+menu.html (Desktop) | Performance: 99, Accessibility: 98, Best practices: 100, SEO: 90  | assets/images/testing/google-lighthouse/menu_desktop_lighthouse.png
+awards.html (Desktop) | Performance: 97, Accessibility: 97, Best practices: 93, SEO: 90  | assets/images/testing/google-lighthouse/about-us_desktop_lighthouse.png
+about-us.html (Desktop) | Performance: 100, Accessibility: 97, Best practices: 100, SEO: 90  | assets/images/testing/google-lighthouse/awards_desktop_lighthouse.png
+index.html (Mobile) | Performance: 90, Accessibility: 100, Best practices: 93, SEO: 92  | assets/images/testing/google-lighthouse/index_mobile_lighthouse.png
+menu.html (Mobile) | Performance: 98, Accessibility: 100, Best practices: 100, SEO: 92  | assets/images/testing/google-lighthouse/menu_mobile_lighthouse.png
+awards.html (Mobile) | Performance: 93, Accessibility: 100, Best practices: 93, SEO: 92  | assets/images/testing/google-lighthouse/about-us_mobile_lighthouse.png
+about-us.html (Mobile) | Performance: 96, Accessibility: 100, Best practices: 100, SEO: 92 | assets/images/testing/google-lighthouse/awards_mobile_lighthouse.png
 
 <br>
 
@@ -437,7 +454,7 @@ about-us.html | 0 errors and 0 contrast errors | [Results](assets/images/testing
 <br>
 
 # Deployment
-The website was developed using initally the Gitpod IDE, but then I switched to use the Visual Studio Code IDE due to the extensibility of the Visual Studio Code IDE and I plan on using this IDE for future projects. 
+The website was developed using initially the Gitpod IDE, but then I switched to use the Visual Studio Code IDE due to the extensibility of the Visual Studio Code IDE and I plan on using this IDE for future projects. 
 
 The source code is stored in GIT in the repo: pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite(master branch) 
 
@@ -453,7 +470,7 @@ To run this project locally, you will need to clone the repository
 1. Login to GitHub (https://wwww.github.com)
 2. Select the repository pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite 
 3. Click the Code button and copy the HTTPS url, for example: https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git
-4. In your IDE, open a terminal and run the git clone commaned, for example 
+4. In your IDE, open a terminal and run the git clone command, for example 
 
 ```git clone https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite.git```
 
@@ -462,13 +479,13 @@ To run this project locally, you will need to clone the repository
 # Credits
 - For the image carousel scaling and margin sizing I used source code with some tweaks from: https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
-- For the social media icons, I used the code with some tweaks from the Code Institute, CV project, reference: https://github.com/Code-Institute-Org/ucd-resume
+- For the social media icons, I used the code with some modifications from the Code Institute, CV project, reference: https://github.com/Code-Institute-Org/ucd-resume
 
-- For the navigation bar, and hero image, I used the code with some tweaks from the Code Institute, Whiskey project, reference https://learn.codeinstitute.net/login?next=/ci_program/diplomainsoftwaredevelopment
+- For the navigation bar, and hero image, I used the code with some modifications from the Code Institute, Whiskey project, reference https://learn.codeinstitute.net/login?next=/ci_program/diplomainsoftwaredevelopment
 
 - I used lazy loading javascript code (https://github.com/aFarkas/lazysizes) to improve image loading and performance on the website
 
-- I use a number of Bootstrap components: Navbar, Carousel, Modal, Collapse
+- I use a number of Bootstrap components: Navbar, Carousel, Modal, Collapse in the four webpages
     - https://getbootstrap.com/docs/4.6/components/carousel/
     - https://getbootstrap.com/docs/4.6/components/navbar/
     - https://getbootstrap.com/docs/4.6/components/modal/
