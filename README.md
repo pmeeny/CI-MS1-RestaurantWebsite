@@ -2,7 +2,8 @@
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [UX](#ux)
-  * [Primary Goal](#primary-goal)
+  * [Strategy](#strategy)
+    + [Primary Goal](#primary-goal)
   * [Structure](#structure)
   * [Scope](#scope)
     + [User Stories](#user-stories)
@@ -61,7 +62,6 @@
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
-
 # Project Overview
 
 - This project is a website for a fictional restaurant named "Lily's Restaurant" fo submission as milestone project 1 as part of the Code Institute - Diploma in Software Development (Full stack) course.
@@ -75,7 +75,8 @@
 ![Responsive site example](/assets/images/responsive_devices.png)
 
 # UX
-## Primary Goal
+## Strategy
+### Primary Goal
 - The primary goal of the website from the site owners perspective is to increase bookings and visibility of the restaurant to potential customers
 - The primary goal of the website from a users perspective is to find out details about the restaurant, view the menu and book a table online.
 ## Structure
@@ -233,8 +234,7 @@ This page(awards.html) displays the restaurant awards for the years 2020, 2019, 
 The following features are outside the scope of this milestone project, but they would provide the user with a moe complete user experience from the site, and would also drive users to the website.
 - An online table booking feature that has a server side implementation and database to store bookings
 - An online ordering feature, so that users can order online, this would require a server side implementation, database and payment processing to process orders
-- Google maps integration - In an earlier version of the website I had used the Google Maps API to add a google map to the footer.
-The performance of the index page in the Google Developer lighthouse analysis tool was less than 70% on a mobile device so I decided to remove the api integration and to just use a map image linked to google maps. I also investigated the Google static maps api, but there is a charge to use this API, from what I can see, even for home projects. At the time I looked into lazy loading of images and files in a browser to improve mobile performance, hence why I am using the lazy loading javascript code (https://github.com/aFarkas/lazysizes).
+- Google maps integration - In an earlier version of the website I had used the Google Maps API to add a google map to the footer. The performance of the index page in the Google Developer lighthouse analysis tool was less than 70% on a mobile device so I decided to remove the api integration and to just use a map image linked to google maps. I also investigated the Google static maps api, but there is a charge to use this API, from what I can see, even for home projects. At the time I also looked into lazy loading of images and files in a browser to improve mobile performance, hence why I am using the lazy loading javascript code (https://github.com/aFarkas/lazysizes).
 
 # Technologies Used
 ## Languages 
@@ -322,9 +322,9 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 
 ## Test Results
 Below are the test results for testing the website requirements against a range of browsers and devices
-Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/emulatortestingresults.webm)
+Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/emulator_testing_results.webm)
 
-Below are a number of screenshots of the website live on an emulator (Desktop, Tablet, Mobile devices)
+Below are a number of screenshots/test case results of the website live on an emulator (Desktop, Tablet, Mobile devices)
 Index (Desktop, Tablet, Mobile)
 - [Index](assets/images/testing/full_page_screenshots/index)
 
@@ -336,6 +336,10 @@ Awards (Desktop, Tablet, Mobile)
 
 About Us (Desktop, Tablet, Mobile)
 - [About Us](assets/images/testing/full_page_screenshots/about-us)
+
+Booking modal and form validation
+- [Booking Modal](assets/images/testing/full_page_screenshots/booking_modal)
+
 ### Feature 1 Navigation Bar 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
 ------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
@@ -364,7 +368,7 @@ Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, S
 3.4: As a user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the number of guests field| The number of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.5: As a user I want to enter the preferred booking date when booking a table | 1. Click on the book a table button <br> 2. Select the preferred date in the date field | The date is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.6: As a user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory. <br> The email address must include an ampersand. The data is then sent successfully to the CodeInstitute POST request  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory and an error message is displayed if a value is not entered. <br> The email address must include an ampersand. The data is then sent successfully to the CodeInstitute POST request for the 6 fields and their values  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 3.8: As a user I want to close the table booking modal | 1. Click on the book a table button <br> 2. Close the modal | The modal is closed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
 ### Feature 4 Website footer
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
@@ -405,11 +409,14 @@ Bug Number | Comment |  Solution/Design decision |
 3 | The carousel on its own container div looked out of place and too large | The fix was to put the menu and the carousel side by side in a row div
 4 | The book a table button looked out of place under the burger menu on tablet and mobile devices | The fix was to hide the button in the navigation bar on mobile and tablet devices using the following classes ```<div class="d-none d-lg-block d-xl-block">```
 5 | The wave accessibility analysis tool displayed an error of the contrast of the original gold (#AF83460 and white text on the buttons on the website |The fix was to use a different colour for the secondary colour #6B4E0A
+6 | The google lighthouse tool displayed poor index.html performance on a mobile with regards image loading |The fix was to use a lazy loading javascript: https://github.com/aFarkas/lazysizes
+7 | The 4 images on the index looks squashed using a standard container class | The fix was to use the container-fluid, so that more of the space was used ```<div class="container-fluid four-images-and-text">```
+8 | The date picker ```<input type="datetime-local">``` was not displaying on Mozilla firefox(version 85.0) | The fix was to use ```<input type="date">``` and ```<input type="date">``` which is supported in Mozilla firefox(version 85.0)
 
 <br>
 
 ## Code Validators and Website Analysis
-The websites pages were run against the following validators
+The website's pages were run against the following validators:
 
 ### HTML Markup Validation Service
 I used https://validator.w3.org/
@@ -438,6 +445,7 @@ Page | Result | Test Detail/Screenshot
 style.css | Passed, No errors found | [Results](assets/images/testing/css-validation/css_validation.jpg)
 <br>
 ### Chrome Dev tools Lighthouse 
+
 (I used Lighthouse https://developers.google.com/web/tools/
 lighthouse)
 
@@ -490,13 +498,13 @@ To run this project locally, you will need to clone the repository
 # Credits
 - For the image carousel scaling and margin sizing I used source code with some tweaks from: https://bootstrapcreative.com/create-full-width-bootstrap-4-responsive-carousel/
 
-- For the social media icons, I used the code with some modifications from the Code Institute, CV project, reference: https://github.com/Code-Institute-Org/ucd-resume
+- For the social media icons in the footer, I used the code with some modifications from the Code Institute, CV project, reference: https://github.com/Code-Institute-Org/ucd-resume
 
 - For the navigation bar, and hero image, I used the code with some modifications from the Code Institute, Whiskey project, reference https://learn.codeinstitute.net/login?next=/ci_program/diplomainsoftwaredevelopment
 
 - I used lazy loading javascript code (https://github.com/aFarkas/lazysizes) to improve image loading and performance on the website
 
-- I use a number of Bootstrap components: Navbar, Carousel, Modal, Collapse in the four webpages
+- I use a number of Bootstrap components and the source code in the examples: Navbar, Carousel, Modal, Collapse in the four webpages
     - https://getbootstrap.com/docs/4.6/components/carousel/
     - https://getbootstrap.com/docs/4.6/components/navbar/
     - https://getbootstrap.com/docs/4.6/components/modal/
@@ -504,10 +512,12 @@ To run this project locally, you will need to clone the repository
 
 - For layouts I use the Bootstrap Grid system: https://getbootstrap.com/docs/4.6/layout/grid/
 
+- I used the W3 schools website to find out compatibility and examples of various form components: https://www.w3schools.com/
+
 # Content
 - The text for the menu in menu.html was copied and tweaked from the [Square table restaurant](https://thesquaretable.ie/dinner-menu/)
 
-- I used the name Michelin Star, Bridgestone Award and McKenna Guide in the awards page 
+- I used the names Michelin Star, Bridgestone Award and McKenna Guide in the awards page 
     - https://guide.michelin.com/ie/en/restaurants
     - https://www.bridgestone.com/responsibilities/bga/
     - https://www.guides.ie/
@@ -529,4 +539,4 @@ To run this project locally, you will need to clone the repository
 
 # Acknowledgements
 - I would like to thank my fiancee Mary for her help, constant support and ideas for the website, and also to my dog Lily for her company during development of the website.
-- I would like to thank my mentor Mo for his input, help and feedback.
+- I would like to thank my mentor Mo Shami for his input, help and feedback.
