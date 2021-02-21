@@ -224,7 +224,7 @@ single-image-and-text {
 
 /* ----- Hero image and text ----- */
 #hero-image {
-    height: 550px;
+    height: 575px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero-image.jpg");
 }
 
@@ -497,6 +497,15 @@ single-image-and-text {
         margin-left: 0px;
     }
 
+    /* --- Hero image --- */
+    #hero-message {
+        height: 460px;
+    }
+
+    #hero-message-text{
+        font-size: 1.3em;
+    }
+
     /* ----- Youtube video ----- */
     #youtube-video {
         margin-top: 20px;
@@ -504,10 +513,17 @@ single-image-and-text {
 
     #awards iframe {
         height: 250px;
+        max-width: 270px;
     }
 
     /* --- Menu --- */
     .menu-allergy {
         min-width: 50px;
     }
+
+    /* --- About Us --- */
+    .team-member img {
+        width: 250px;
+        height: 250px;
+    }    
 }   

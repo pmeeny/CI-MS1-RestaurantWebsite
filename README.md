@@ -64,7 +64,7 @@
 
 # Project Overview
 
-- This project is a website for a fictional restaurant named "Lily's Restaurant" fo submission as milestone project 1 as part of the Code Institute - Diploma in Software Development (Full stack) course.
+- This project is a website for a fictional restaurant named "Lily's Restaurant" for submission as milestone project 1 as part of the Code Institute - Diploma in Software Development (Full stack) course.
 - The website showcases the restaurant, its menu, team, awards and allows the user to fill in a form to book a table in the restaurant
 
 - The website is deployed using GIThub pages at the following url: [Lilys Restaurant](https://pmeeny.github.io/CodeInstitute-MilestoneProject1-RestaurantWebsite/)
@@ -453,10 +453,10 @@ Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
 style.css | Passed, No errors found | [Results](assets/images/testing/css-validation/css_validation.jpg)
 <br>
+
 ### Chrome Dev tools Lighthouse 
 
-(I used Lighthouse https://developers.google.com/web/tools/
-lighthouse)
+(I used Lighthouse https://developers.google.com/web/tools/lighthouse)
 
 Page | Result | Test Detail/Screenshot
 ------------ | ------------- | -------------
