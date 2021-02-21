@@ -325,20 +325,29 @@ Below are the test results for testing the website requirements against a range 
 Below is a link to a screen recording showing the website being tested on three emulators (This video can be played in the Chrome web browser): [Test Results](assets/images/testing/test-results/emulator_testing_results.webm)
 
 Below are a number of screenshots/test case results of the website live on an emulator (Desktop, Tablet, Mobile devices)
+
 Index (Desktop, Tablet, Mobile)
-- [Index](assets/images/testing/full_page_screenshots/index)
+- [Desktop](assets/images/testing/full_page_screenshots/index/desktop)
+- [Tablet](assets/images/testing/full_page_screenshots/index/tablet)
+- [Mobile](assets/images/testing/full_page_screenshots/index/mobile)
 
 Menu (Desktop, Tablet, Mobile)
-- [Menu](assets/images/testing/full_page_screenshots/menu)
+- [Desktop](assets/images/testing/full_page_screenshots/menu/desktop)
+- [Tablet](assets/images/testing/full_page_screenshots/menu/tablet)
+- [Mobile](assets/images/testing/full_page_screenshots/menu/mobile)
 
 Awards (Desktop, Tablet, Mobile)
-- [Awards](assets/images/testing/full_page_screenshots/awards)
+- [Desktop](assets/images/testing/full_page_screenshots/awards/desktop)
+- [Tablet](assets/images/testing/full_page_screenshots/awards/tablet)
+- [Mobile](assets/images/testing/full_page_screenshots/awards/mobile)
 
 About Us (Desktop, Tablet, Mobile)
-- [About Us](assets/images/testing/full_page_screenshots/about-us)
+- [Desktop](assets/images/testing/full_page_screenshots/about-us/desktop)
+- [Tablet](assets/images/testing/full_page_screenshots/about-us/tablet)
+- [Mobile](assets/images/testing/full_page_screenshots/about-us/mobile)
 
-Booking modal and form validation
-- [Booking Modal](assets/images/testing/full_page_screenshots/booking_modal)
+Booking modal (Form validation, common across all devices)
+- [Form Validation](assets/images/testing/full_page_screenshots/booking_modal)
 
 ### Feature 1 Navigation Bar 
 Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
