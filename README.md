@@ -1,4 +1,4 @@
-# Milestone Project 1 - Lilys Restaurant
+# Milestone Project 1 - Lily's Restaurant
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [UX](#ux)
@@ -6,7 +6,8 @@
     + [Primary Goal](#primary-goal)
   * [Structure](#structure)
   * [Scope](#scope)
-    + [User Stories](#user-stories)
+    + [User Stories Potential or Existing Customer](#user-stories-potential-or-existing-customer)
+    + [User Stories Restaurant Owner](#user-stories-restaurant-owner)
   * [Skeleton](#skeleton)
     + [Wireframes](#wireframes)
   * [Surface](#surface)
@@ -16,25 +17,25 @@
   * [Existing Features](#existing-features)
     + [Feature 1 Navigation Bar](#feature-1-navigation-bar)
       - [Description](#description)
-      - [User Stories](#user-stories-1)
+      - [User Stories](#user-stories)
     + [Feature 2 Hero Image and Four images](#feature-2-hero-image-and-four-images)
       - [Description](#description-1)
-      - [User Stories](#user-stories-2)
+      - [User Stories](#user-stories-1)
     + [Feature 3 Table Booking Modal](#feature-3-table-booking-modal)
       - [Description](#description-2)
-      - [User Stories](#user-stories-3)
+      - [User Stories](#user-stories-2)
     + [Feature 4 Website footer](#feature-4-website-footer)
       - [Description](#description-3)
-      - [User Stories](#user-stories-4)
+      - [User Stories](#user-stories-3)
     + [Feature 5 Menu page](#feature-5-menu-page)
       - [Description](#description-4)
-      - [User Stories](#user-stories-5)
+      - [User Stories](#user-stories-4)
     + [Feature 6 About Us page](#feature-6-about-us-page)
       - [Description](#description-5)
-      - [User Stories](#user-stories-6)
+      - [User Stories](#user-stories-5)
     + [Feature 7 Awards](#feature-7-awards)
       - [Description](#description-6)
-      - [User Stories](#user-stories-7)
+      - [User Stories](#user-stories-6)
   * [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
   * [Languages](#languages)
@@ -48,6 +49,7 @@
     + [Feature 5 Menu page](#feature-5-menu-page-1)
     + [Feature 6 About Us page](#feature-6-about-us-page-1)
     + [Feature 7 Awards page](#feature-7-awards-page)
+    + [User Stories Restaurant Owner Testing](#user-stories-restaurant-owner-testing)
   * [Bugs found during the testing phase](#bugs-found-during-the-testing-phase)
   * [Code Validators and Website Analysis](#code-validators-and-website-analysis)
     + [HTML Markup Validation Service](#html-markup-validation-service)
@@ -78,7 +80,7 @@
 ## Strategy
 ### Primary Goal
 - The primary goal of the website from the site owners perspective is to increase bookings and visibility of the restaurant to potential customers
-- The primary goal of the website from a users perspective is to find out details about the restaurant, view the menu and book a table online.
+- The primary goal of the website from a site users perspective is to find out details about the restaurant, view the menu and book a table online.
 ## Structure
 I have structured the website into four pages, each with clear, concise structure, information and purpose. I use the Bootstrap grid system throughout, which gave a consistent structure and responsive design "out of the box"
 
@@ -87,38 +89,56 @@ I have structured the website into four pages, each with clear, concise structur
 3. Awards: The awards page displays awards from 2017-2020 and a Youtube video
 4. About Us: The about us page displays the three team members, picture and biography
 ## Scope
-### User Stories
-There user stories for the website are described as follows: 
-- As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
-- As a user I want to view the restaurant logo
-- As a user I want to view the restaurant home, menu, about us, awards page link 
-- As a user I want to book a table in the restaurant
-- As a user I want to view the restaurant home page hero image
-- As a user I want to book a table (Hero Image button)
-- As a user I want to book a table (Website body button)
-- As a user I want to view the menu on the restaurant home page (Website body button)
-- As a user I want to view the about us information (Website body button)
-- As a user I want to view the restaurant awards(Website body button)
-- As a user I want to enter my name when booking a table
-- As a user I want to enter my phone number when booking a table
-- As a user I want to enter my email address when booking a table
-- As a user I want to enter the number of guests when booking a table
-- As a user I want to enter the preferred booking date when booking a table
-- As a user I want to enter the preferred booking time when booking a table
-- As a user I want to submit a booking
-- As a user I want to close the table booking modal
-- As a user I want to view the restaurant opening times
-- As a user I want to view the restaurant phone number
-- As a user I want to view the restaurant email address
-- As a user I want to view the restaurant location on a map
-- As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
-- As a user I want to view the restaurant menu items and price (Starters and Main courses)
-- As a user I want to view the restaurant allergan advice (Staters and Main courses)
-- As a user I want to view a selection of the dishes available in a picture carousel
-- As a user I want to view the restaurant about us section
-- As a user I want to view the restaurant team members pictures and biography
-- As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
-- As a user I want to view the restaurant michelin star awards Youtube video
+### User Stories Potential or Existing Customer
+The user stories for the website user(a potential or existing customer) are described as follows: 
+- As a website user the navigation bar is displayed on the Index, Menu, About Us and Awards pages
+- As a website user I want to view the restaurant logo
+- As a website user I want to view the restaurant home, menu, about us, awards page link 
+- As a website user I want to book a table in the restaurant
+- As a website user I want to view the restaurant home page hero image
+- As a website user I want to book a table (Hero Image button)
+- As a website user I want to book a table (Website body button)
+- As a website user I want to view the menu on the restaurant home page (Website body button)
+- As a website user I want to view the about us information (Website body button)
+- As a website user I want to view the restaurant awards(Website body button)
+- As a website user I want to enter my name when booking a table
+- As a website user I want to enter my phone number when booking a table
+- As a website user I want to enter my email address when booking a table
+- As a website user I want to enter the number of guests when booking a table
+- As a website user I want to enter the preferred booking date when booking a table
+- As a website user I want to enter the preferred booking time when booking a table
+- As a website user I want to submit a booking
+- As a website user I want to close the table booking modal
+- As a website user I want to view the restaurant opening times
+- As a website user I want to view the restaurant phone number
+- As a website user I want to view the restaurant email address
+- As a website user I want to view the restaurant location on a map
+- As a website user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
+- As a website user I want to view the restaurant menu items and price (Starters and Main courses)
+- As a website user I want to view the restaurant allergan advice (Staters and Main courses)
+- As a website user I want to view a selection of the dishes available in a picture carousel
+- As a website user I want to view the restaurant about us section
+- As a website user I want to view the restaurant team members pictures and biography
+- As a website user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
+- As a website user I want to view the restaurant michelin star awards Youtube video
+
+### User Stories Restaurant Owner
+The user stories for the website/restaurant owner are described as follows: 
+- As a restaurant owner I want the navigation bar is displayed on the Index, Menu, About Us and Awards pages
+- As a restaurant owner I want to display the restaurant logo on all pages
+- As a restaurant owner I want a table booking option in the navigation bar
+- As a restaurant owner I want a hero image of the restaurant displayed on the homepage
+- As a restaurant owner I want a table booking option displayed on the hero image
+- As a restaurant owner I want a table booking option displayed on the homepage body
+- As a restaurant owner I want a table booking modal with fields name, email address, phone number, number of guests(1-20) and preferred date and time for a booking
+- As a restaurant owner I want links and images to the table booking, menu, about us and awards pages on the homepage
+- As a restaurant owner I want to display the restaurant menu with prices, details and allergan information for the starters and main courses)
+- As a restaurant owner I want to display pictures of selected items on the menu in a picture carousel
+- As a restaurant owner I want to display the restaurant awards received from 2017 to 2020
+- As a restaurant owner I want to display the restaurant awards michelin star awards Youtube video
+- As a restaurant owner I want to display the restaurant biography and team members: proprietor, head chef and manager
+- As a restaurant owner I want to display the restaurant opening times, phone number, email address and location on a google map in the footer on all pages
+- As a restaurant owner I want to display the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
 
 ## Skeleton
 ### Wireframes
@@ -177,58 +197,58 @@ The navigation bar is a bootstrap component, and is a responsive component. It b
 #### Description
 This is a large hero image on the index/home page with a splash message and table button button and four images with corresponding text/buttons, with a navigation bar as the header and a footer
 #### User Stories
-- User Story 2.1: As a user I want to view the restaurant home page hero image
-- User Story 2.2: As a user I want to book a table (Hero Image button)
-- User Story 2.3: As a user I want to book a table (Website body button)
-- User Story 2.4: As a user I want to view the menu on the restaurant home page (Website body button)
-- User Story 2.5: As a user I want to view the about us information (Website body button)
-- User Story 2.6: As a user I want to view the restaurant awards(Website body button)
+- User Story 2.1: As a website user I want to view the restaurant home page hero image
+- User Story 2.2: As a website user I want to book a table (Hero Image button)
+- User Story 2.3: As a website user I want to book a table (Website body button)
+- User Story 2.4: As a website user I want to view the menu on the restaurant home page (Website body button)
+- User Story 2.5: As a website user I want to view the about us information (Website body button)
+- User Story 2.6: As a website user I want to view the restaurant awards(Website body button)
 
 ### Feature 3 Table Booking Modal
 #### Description
 This is a modal that is a form for the user to enter in the relevant information to book a table in the restaurant and is available in the navigation bar on the Index(Homepage), Menu, Awards, About Us pages. This modal is a bootstrap component.
 #### User Stories
-- User Story 3.1: As a user I want to enter my name when booking a table
-- User Story 3.2: As a user I want to enter my phone number when booking a table
-- User Story 3.3: As a user I want to enter my email address when booking a table
-- User Story 3.4: As a user I want to enter the number of guests when booking a table
-- User Story 3.5: As a user I want to enter the preferred booking date when booking a table
-- User Story 3.6: As a user I want to enter the preferred booking time when booking a table
-- User Story 3.7: As a user I want to submit a booking
-- User Story 3.8: As a user I want to close the table booking modal
+- User Story 3.1: As a website user I want to enter my name when booking a table
+- User Story 3.2: As a website user I want to enter my phone number when booking a table
+- User Story 3.3: As a website user I want to enter my email address when booking a table
+- User Story 3.4: As a website user I want to enter the number of guests when booking a table
+- User Story 3.5: As a website user I want to enter the preferred booking date when booking a table
+- User Story 3.6: As a website user I want to enter the preferred booking time when booking a table
+- User Story 3.7: As a website user I want to submit a booking
+- User Story 3.8: As a website user I want to close the table booking modal
 
 ### Feature 4 Website footer
 #### Description
 This is the website footer displaying the restaurant contact information, map location and social media page links
 #### User Stories
-- User Story 4.1: As a user I want to view the restaurant opening times
-- User Story 4.2: As a user I want to view the restaurant phone number
-- User Story 4.3: As a user I want to view the restaurant email address
-- User Story 4.4: As a user I want to view the restaurant location on a map
-- User Story 4.5: As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
+- User Story 4.1: As a website user I want to view the restaurant opening times
+- User Story 4.2: As a website user I want to view the restaurant phone number
+- User Story 4.3: As a website user I want to view the restaurant email address
+- User Story 4.4: As a website user I want to view the restaurant location on a map
+- User Story 4.5: As a website user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages
 
 ### Feature 5 Menu page
 #### Description
 This page displays the menu(menu.html) and a selection of the dishes available in a picture carousel with a navigation bar as the header and a footer.
 The carousel used is a Bootstrap component.
 #### User Stories
-- User Story 5.1: As a user I want to view the restaurant menu items and price (Starters and Main courses)
-- User Story 5.2: As a user I want to view the restaurant allergan advice (Staters and Main courses)
-- User Story 5.3: As a user I want to view a selection of the dishes available in a picture carousel
+- User Story 5.1: As a website user I want to view the restaurant menu items and price (Starters and Main courses)
+- User Story 5.2: As a website user I want to view the restaurant allergan advice (Staters and Main courses)
+- User Story 5.3: As a website user I want to view a selection of the dishes available in a picture carousel
 
 ### Feature 6 About Us page
 #### Description
 This page(about-us.html) displays the three team members, picture and biography
 #### User Stories
-- User Story 6.1: As a user I want to view the restaurant about us section
-- User Story 6.2: As a user I want to view the restaurant team members pictures and biography
+- User Story 6.1: As a website user I want to view the restaurant about us section
+- User Story 6.2: As a website user I want to view the restaurant team members pictures and biography (proprietor, head chef and manager)
 
 ### Feature 7 Awards
 #### Description
 This page(awards.html) displays the restaurant awards for the years 2020, 2019, 2018, 2017 in an accordion and a michelin star awards Youtube video with a navigation bar as the header and a footer. The accordion used is a bootstrap component.
 #### User Stories
-- User Story 7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
-- User Story 7.2: As a user I want to view the restaurant michelin star awards Youtube video
+- User Story 7.1: As a website user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017
+- User Story 7.2: As a website user I want to view the restaurant michelin star awards Youtube video
  
 ##  Features Left to Implement
 The following features are outside the scope of this milestone project, but they would provide the user with a moe complete user experience from the site, and would also drive users to the website.
@@ -319,6 +339,7 @@ Device Number | Physical/Emulator | Device Name | Device Type | Browser | Versio
 6 | Emulator | Galaxy S5 | Mobile | Chrome Emulator | 86.0 |
 7 | Emulator | iPad | Tablet | Chrome Emulator | 86.0 |
 8 | Emulator | iPhone X | Mobile | Chrome Emulator | 86.0 |
+9 | Emulator | iPhone 5/SE | Mobile | Chrome Emulator | 86.0 |
 
 ## Test Results
 Below are the test results for testing the website requirements against a range of browsers and devices
@@ -350,62 +371,84 @@ Booking modal (Form validation, common across all devices)
 - [Form Validation](assets/images/testing/full_page_screenshots/booking_modal)
 
 ### Feature 1 Navigation Bar 
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-1.1: As a user the navigation bar is displayed on the Index, Menu, About Us and Awards pages | 1. Open the Index, Menu, About Us and Awards pages | The navigation is displayed, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-1.2: As a user I want to view the restaurant logo | 1. Open the Index, Menu, About Us and Awards pages | The log is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-1.3: As a user I want to view the restaurant home, menu, about us, awards page links  | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on each page link in the navigation bar | The navigation is displayed and the links bring the user to the relevant page, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-1.4: As a user I want to book a table in the restaurant | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on the "Book a Table" button | The navigation is displayed Note: on a small tablet/mobile device, the table booking button is hidden | Passed | N/A | N/A | Passed | Passed | N/A| Passed | N/A |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+1.1: As a website user the navigation bar is displayed on the Index, Menu, About Us and Awards pages | 1. Open the Index, Menu, About Us and Awards pages | The navigation is displayed, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+1.2: As a website user I want to view the restaurant logo | 1. Open the Index, Menu, About Us and Awards pages | The logo is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+1.3: As a website user I want to view the restaurant home, menu, about us, awards page links  | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on each page link in the navigation bar | The navigation is displayed and the links bring the user to the relevant page, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+1.4: As a website user I want to book a table in the restaurant | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on the "Book a Table" button | The navigation is displayed Note: on a small tablet/mobile device, the table booking button is hidden | Passed | N/A | N/A | Passed | Passed | N/A| Passed | N/A | N/A |
 
 
 ### Feature 2 Hero Image and Four images 
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-2.1: As a user I want to view the restaurant home page hero image | 1. Open the Index page | The hero image and text is displayed under the navigation bar | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-2.2: As a user I want to book a table (Hero Image button) | 1. Open the Index page <br> 2. On the hero image, click the book a table button  | The table booking modal will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-2.3: As a user I want to book a table (Website body button) | 1. Open the Index page <br> 2. On the website body click the book a table button  | The table booking modal will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-2.4: As a user I want to view the menu on the restaurant home page (Website body button) | 1. Open the Index page <br> 2. On the website body click the menu button  | The menu page will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-2.5: As a user I want to view the about us information (Website body button) | 1. Open the Index page <br> 2. On the website body click the about us button  | The about us page will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-2.6: As a user I want to view the restaurant awards(Website body button) | 1. Open the Index page <br> 2. On the website body click the awards button  | The awards page will be displayed| Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+2.1: As a website user I want to view the restaurant home page hero image | 1. Open the Index page | The hero image and text is displayed under the navigation bar | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+2.2: As a website user I want to book a table (Hero Image button) | 1. Open the Index page <br> 2. On the hero image, click the book a table button  | The table booking modal will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+2.3: As a website user I want to book a table (Website body button) | 1. Open the Index page <br> 2. On the website body click the book a table button  | The table booking modal will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+2.4: As a website user I want to view the menu on the restaurant home page (Website body button) | 1. Open the Index page <br> 2. On the website body click the menu button  | The menu page will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+2.5: As a website user I want to view the about us information (Website body button) | 1. Open the Index page <br> 2. On the website body click the about us button  | The about us page will be displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+2.6: As a website user I want to view the restaurant awards(Website body button) | 1. Open the Index page <br> 2. On the website body click the awards button  | The awards page will be displayed| Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 
 ### Feature 3 Table Booking Modal
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-3.1: As a user I want to enter my full name when booking a table | 1. Click on the book a table button <br> 2. Fill in a full name in the name field | The full name is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.2: As a user I want to enter my phone number when booking a table | 1. Click on the book a table button <br> 2. Fill in a phone number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.3: As a user I want to enter my email address when booking a table | 1. Click on the book a table button <br> 2. Fill in an email address number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.4: As a user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the number of guests field| The number of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.5: As a user I want to enter the preferred booking date when booking a table | 1. Click on the book a table button <br> 2. Select the preferred date in the date field | The date is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.6: As a user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.7: As a user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory and an error message is displayed if a value is not entered. <br> The email address must include an ampersand. The data is then sent successfully to the CodeInstitute POST request for the 6 fields and their values  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-3.8: As a user I want to close the table booking modal | 1. Click on the book a table button <br> 2. Close the modal | The modal is closed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+3.1: As a website user I want to enter my full name when booking a table | 1. Click on the book a table button <br> 2. Fill in a full name in the name field | The full name is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.2: As a website user I want to enter my phone number when booking a table | 1. Click on the book a table button <br> 2. Fill in a phone number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.3: As a website user I want to enter my email address when booking a table | 1. Click on the book a table button <br> 2. Fill in an email address number in the name field | The email address is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.4: As a website user I want to enter the number of guests when booking a table | 1. Click on the book a table button <br> 2. Select the number of guests in the number of guests field| The number of guests is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.5: As a website user I want to enter the preferred booking date when booking a table | 1. Click on the book a table button <br> 2. Select the preferred date in the date field | The date is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.6: As a website user I want to enter the preferred booking time when booking a table | 1. Click on the book a table button <br> 2. Select the preferred time in the time field | The time is displayed in the form | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.7: As a website user I want to submit a booking and the form details is validated | 1. Click on the book a table button <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory and an error message is displayed if a value is not entered. <br> The email address must include an ampersand. The number of guests allowed is between 1 and 20 inclusive. The data is then sent successfully to the CodeInstitute POST request for the 6 fields and their values  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+3.8: As a website user I want to close the table booking modal | 1. Click on the book a table button <br> 2. Close the modal | The modal is closed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 ### Feature 4 Website footer
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-4.1: As a user I want to view the restaurant opening times | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant opening times are displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-4.2: As a user I want to view the restaurant phone number | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant phone number is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-4.3: As a user I want to view the restaurant email address | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant email address is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-4.4: As a user I want to view the restaurant location on a map | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant google map is displayed, and clicking on it opens google maps in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-4.5: As a user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages | 1. Open the Index, Menu, Awards, About Us pages and view the footer <br> 2. Click on each of the social icon buttons x 6(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin)| The restaurants social media page(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin) opens up in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+4.1: As a website user I want to view the restaurant opening times | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant opening times are displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+4.2: As a website user I want to view the restaurant phone number | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant phone number is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+4.3: As a website user I want to view the restaurant email address | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant email address is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+4.4: As a website user I want to view the restaurant location on a map | 1. Open the Index, Menu, Awards, About Us pages and view the footer | The restaurant google map is displayed, and clicking on it opens google maps in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+4.5: As a website user I want to view the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages | 1. Open the Index, Menu, Awards, About Us pages and view the footer <br> 2. Click on each of the social icon buttons x 6(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin)| The restaurants social media page(Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin) opens up in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 
 ### Feature 5 Menu page
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-5.1: As a user I want to view the restaurant menu items and price (Starters and Main courses) | 1. Open the Menu page and view the menu | The menu is displayed, starter, main course items and prices | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-5.2: As a user I want to view the restaurant allergan advice (Staters and Main courses) | 1. Open the Menu page and view the allergan advice | The allergan advice for each item is displayed and explained | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-5.3: As a user I want to view a selection of the dishes available in a picture carousel | 1. Open the Menu page and click on the carousel items | A selection of the dishes available is displayed in a picture carousel | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+5.1: As a website user I want to view the restaurant menu items and price (Starters and Main courses) | 1. Open the Menu page and view the menu | The menu is displayed, starter, main course items and prices | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+5.2: As a website user I want to view the restaurant allergan advice (Staters and Main courses) | 1. Open the Menu page and view the allergan advice | The allergan advice for each item is displayed and explained | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+5.3: As a website user I want to view a selection of the dishes available in a picture carousel | 1. Open the Menu page and click on the carousel items | A selection of the dishes available is displayed in a picture carousel | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 
 ### Feature 6 About Us page
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-6.1: As a user I want to view the restaurant about us section | 1. Open the About Us page  | The about us section is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-7.1: As a user I want to view the restaurant team member pictures and biography | 1. Open the About Us page | The team members pictures and biography is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+6.1: As a website user I want to view the restaurant about us section | 1. Open the About Us page  | The about us section is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+6.2: As a website user I want to view the restaurant team members pictures and biography (proprietor, head chef and manager) | 1. Open the About Us page | The team members pictures and biography is displayed of the proprietor, head chef and manager | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 
 ### Feature 7 Awards page
-Requirement | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome)
------------- | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- 
-7.1: As a user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017 | 1. Open the Awards page and click each award year(2020, 2019, 2018, 2017) in the dropdown | The awards are displayed for each award year(2020, 2019, 2018, 2017) | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
-7.2: As a user I want to view the restaurant michelin star awards Youtube video | 1. Open the Awards page and open the Youtube video on the page | The Youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed |
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+7.1: As a website user I want to view the restaurant awards for the years 2020, 2019, 2018, 2017 | 1. Open the Awards page and click each award year(2020, 2019, 2018, 2017) in the dropdown | The awards are displayed for each award year(2020, 2019, 2018, 2017) | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+7.2: As a website user I want to view the restaurant michelin star awards Youtube video | 1. Open the Awards page and open the Youtube video on the page | The Youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+
+
+### User Stories Restaurant Owner Testing
+There was obvious overlap between the site user and site owners user stories, below are the testing results of the user stories for a restaurant owners perspective
+
+User Story | Test Case Steps |  Expected Result | 1(iPad, Safari) | 2(iPhone, Safari) | 3(One Plus 5, Chrome) | 4(Windows Desktop, IE) | 5(Windows Desktop, Firefox) | 6(Galaxy S5, Chrome) | 7(iPad, Chrome) | 8(iPhone X, Chrome) | 9(iPhone 5/SE, Chrome)
+------------ | ------------- | ------------- | ------------ | ------------- | -------------  | ------------ | ------------- | -------------  | -------------  | ------------- | -------------
+8.1: As a restaurant owner I want the navigation bar is displayed on the Index, Menu, About Us and Awards pages | 1. Open the Index, Menu, About Us and Awards pages | The navigation is displayed, on a tablet/mobile device, it is displayed in a burger menu | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+8.2: As a restaurant owner I want to display the restaurant logo on all pages | 1. Open the Index, Menu, About Us and Awards pages | The logo is displayed | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+8.3: As a restaurant owner I want a table booking option in the navigation bar | 1. Open the Index, Menu, About Us and Awards pages <br>2. Click on the "Book a Table" button | The navigation is displayed Note: on a small tablet/mobile device, the table booking button is hidden | Passed | N/A | N/A | Passed | Passed | N/A| Passed | N/A | N/A |
+8.4: As a restaurant owner I want a hero image of the restaurant displayed on the homepage | 1. Open the Index(Homepage) page | The hero image of the restaurant is displayed | Passed | Passed | Passed | Passed | Passed | Passed | Passed | Passed | Passed |
+8.5: As a restaurant owner I want a table booking option displayed on the hero image | 1. Open the Index(Homepage) page | The table booking option displayed on the hero image | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.6: As a restaurant owner I want a table booking option displayed on the homepage body | 1. Open the Index(Homepage) page | The table booking option displayed on the homepage body | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.7: As a restaurant owner I want a table booking modal with fields name, email address, phone number, number of guests(1-20) and preferred date and time for a booking | 1. Click on the book a table button on the homepage <br> 2. Leave all fields blank and then fill then in one by one and click the book a table button | The full name, phone number, email address, date and time fields are mandatory and an error message is displayed if a value is not entered. <br> The email address must include an ampersand. The number of guests allowed is between 1 and 20 inclusive. The data is then sent successfully to the CodeInstitute POST request for the 6 fields and their values  | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+8.8: As a restaurant owner I want links and images to the table booking, menu, about us and awards pages on the homepage | 1. Open the Index(Homepage) page | Links are displayed for the table booking, menu, about us and awards pages on the homepage  | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.9: As a restaurant owner I want to display the restaurant menu with prices, details and allergan information for the starters and main courses) | 1. Open the Menu page | The menu is displayed, starter, main course items and prices <br> The allergan advice for each item is displayed and explained | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.10: As a restaurant owner I want to display pictures of selected items on the menu in a picture carousel | 1. Open the Menu page | A selection of the dishes available is displayed in a picture carousel | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.11: As a restaurant owner I want to display the restaurant awards received from 2017 to 2020 | 1. Open the Awards page and click each award year(2020, 2019, 2018, 2017) in the dropdown | The awards are displayed for each award year(2020, 2019, 2018, 2017)l | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.12: As a restaurant owner I want to display the restaurant awards michelin star awards Youtube video | 1. Open the Awards page and open the Youtube video on the page | The Youtube video loads and plays | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+8.13: As a restaurant owner I want to display the restaurant biography and team members: proprietor, head chef and manager | 1. Open the About Us page | The about us section is displayed <br> The team members pictures and biography is displayed of the proprietor, head chef and manager | Passed | Passed | Passed| Passed | Passed | Passed| Passed | Passed | Passed |
+8.14: As a restaurant owner I want to display the restaurant opening times, phone number, email address and location on a google map in the footer on all pages | 1. Open the Index, Menu, Awards and About Us Page <br> 2. Scroll down to the footer | The restaurant opening times, phone number, email address and location on a google map is displayed in the footer on all pages | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
+8.15: As a restaurant owner I want to display the restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages | 1. Open the Index, Menu, Awards and About Us Page <br> 2. Scroll down to the footer | The restaurant Facebook, Twitter, Snapchat, Instagram, Pinterest, Linkedin social media pages links are displayed and when clicked open in a new tab | Passed | Passed | Passed | Passed | Passed | Passed| Passed | Passed | Passed |
 
 <br>
 
