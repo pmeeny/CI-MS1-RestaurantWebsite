@@ -69,9 +69,9 @@
 - This project is a website for a fictional restaurant named "Lily's Restaurant" for submission as milestone project 1 as part of the Code Institute - Diploma in Software Development (Full stack) course.
 - The website showcases the restaurant, its menu, team, awards and allows the user to fill in a form to book a table in the restaurant
 
-- The website is deployed using GIThub pages at the following url: [Lilys Restaurant](https://pmeeny.github.io/CodeInstitute-MilestoneProject1-RestaurantWebsite/)
+- The website is deployed using GIThub pages at the following url: [Lilys Restaurant](https://pmeeny.github.io/CI-MS1-RestaurantWebsite/)
 
-- The repository on Github that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/pmeeny/CodeInstitute-MilestoneProject1-RestaurantWebsite)
+- The repository on Github that contains the website source code and assets is available at the following url: [Code Repository](https://github.com/pmeeny/CI-MS1-RestaurantWebsite/)
 
 - The website was built with a responsive look and feel for desktop, tablet and mobile devices
 ![Responsive site example](/assets/images/responsive_devices.png)
